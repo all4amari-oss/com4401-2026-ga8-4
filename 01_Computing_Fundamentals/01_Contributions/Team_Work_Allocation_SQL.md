@@ -19,7 +19,7 @@
 <img width="2400" height="1260" alt="image" src="https://github.com/user-attachments/assets/d429d7a2-ef6d-4582-a866-a478c4ef5f21"/>
 BuildCores Parts List: [Link](https://uk.buildcores.com/builds/zT9H0Zxkz?share=true)
 
- |**Component**|**Title**|**Price**|**Justification**|
+|**Component**|**Title**|**Price**|**Justification**|
 |:-|:-|:-|:-|
 |Case|[Montech X5M Micro ATX Mini Tower White with Tempered Glass Side Panel](https://uk.buildcores.com/products/PCCase/cgc8kt8wz/Montech-X5M-Micro-ATX-Mini-Tower-White-with-Tempered-Glass-Side-Panel)|[£24.98 (ScanComputer)](https://www.awin1.com/cread.php?awinmid=15473&awinaffid=743627&ued=https%3A%2F%2Fwww.scan.co.uk%2Fproducts%2Fmontech-x5m-white-matx-chassis-tempered-glass-4-x-120mm-argb-fans-usb-30-matx-mitx)|Cheapest case that fits the motherboard and takes a standard PSU. No need for anything bigger on an office PC.|
 |CPU|[AMD Ryzen 5 8500G](https://uk.buildcores.com/products/CPU/ljuu2xfvq/AMD-Ryzen-5-8500G)|[£129.99 (CCL)](https://ccl.pxf.io/c/2299452/1991091/24481?prodsku=CPU0898&u=https%3A%2F%2Fwww.cclonline.com%2F100-100000931box-amd-ryzen-5-8500g-3-7ghz-hexa-core-am5-cpu-437729%2F&intsrc=CATF_16482)|Graphics and cooler are built in, so nothing extra to buy. Six cores run Office, browser tabs and a video call together without slowing down.|
@@ -40,6 +40,7 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/zT9H0Zxkz?share=t
 |--------|--------------------|----------------------|
 |MO| Project Manager build | |
 |Marcus| Architect / CAD Designer build |<p>CAD hardware workstation with dedicated GPU and suitable display with CAD drawings, 2D drafting, 3D modelling, large design files, multiple monitors, and design reviews. </p>|
+<img width="2400" height="1260" alt="image" src="https://github.com/user-attachments/assets/6e714d26-0ceb-4a54-b88e-e4f5f02c349c" />
 |Charlie| 3D Visualisation Specialist build | |
 
 > Add or remove a row for a 3- or 5-person team. Shared tasks (final recommendation, budget check, ethics write-up) can be added as extra rows.
