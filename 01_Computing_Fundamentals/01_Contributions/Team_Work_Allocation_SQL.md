@@ -4,8 +4,8 @@
 
 | | |
 |---|---|
-| **Team name** | |
-| **Repository** | |
+| **Team name** |The Avengers|
+| **Repository** |com4401-2026-ga8-4|
 | **Deadline** | |
 | **How we'll keep in touch** | *(e.g. group chat, weekly check-in)* |
 
@@ -15,10 +15,10 @@
 
 | Member | Build / area owned | What they'll deliver |
 |--------|--------------------|----------------------|
-| | Administrative Assistant build | |
-| | Project Manager build | |
-| | Architect / CAD Designer build | |
-| | 3D Visualisation Specialist build | |
+|Marcus| Administrative Assistant build | |
+|MO| Project Manager build | |
+|Marcus| Architect / CAD Designer build | |
+|Charlie| 3D Visualisation Specialist build | |
 
 > Add or remove a row for a 3- or 5-person team. Shared tasks (final recommendation, budget check, ethics write-up) can be added as extra rows.
 
