@@ -39,8 +39,14 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/zT9H0Zxkz?share=t
 | Member | Build / area owned | What they'll deliver |
 |--------|--------------------|----------------------|
 |MO| Project Manager build | |
+
+| Member | Build / area owned | What they'll deliver |
+|--------|--------------------|----------------------|
 |Marcus| Architect / CAD Designer build |<p>CAD hardware workstation with dedicated GPU and suitable display with CAD drawings, 2D drafting, 3D modelling, large design files, multiple monitors, and design reviews. </p>|
 <img width="2400" height="1260" alt="image" src="https://github.com/user-attachments/assets/6e714d26-0ceb-4a54-b88e-e4f5f02c349c" />
+
+| Member | Build / area owned | What they'll deliver |
+|--------|--------------------|----------------------|
 |Charlie| 3D Visualisation Specialist build | |
 
 > Add or remove a row for a 3- or 5-person team. Shared tasks (final recommendation, budget check, ethics write-up) can be added as extra rows.
