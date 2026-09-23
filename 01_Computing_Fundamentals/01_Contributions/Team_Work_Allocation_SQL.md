@@ -36,6 +36,8 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/zT9H0Zxkz?share=t
 |**Total Price**|**$805.33**| | |
 |[BuildCores Web](https://uk.buildcores.com)|[BuildCores iOS](https://apps.apple.com/us/app/buildcores-part-picker-for-pc/id1441971434)|[BuildCores Android](https://play.google.com/store/apps/details?id=com.buildcores.buildcores&pcampaignid=web_share)|
 
+| Member | Build / area owned | What they'll deliver |
+|--------|--------------------|----------------------|
 |MO| Project Manager build | |
 |Marcus| Architect / CAD Designer build |<p>CAD hardware workstation with dedicated GPU and suitable display with CAD drawings, 2D drafting, 3D modelling, large design files, multiple monitors, and design reviews. </p>|
 |Charlie| 3D Visualisation Specialist build | |
