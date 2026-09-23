@@ -16,7 +16,7 @@
 | Member | Build / area owned | What they'll deliver |
 |--------|--------------------|----------------------|
 |Marcus| Administrative Assistant build |<p>Basic office hardware workstation with email, documents, spreadsheets, web systems, online meetings, and basic customer records. </p>|
-<img src=”[https://a.com” alt=”Alt](https:<img width="2400" height="1260" alt="image" src="https://github.com/user-attachments/assets/d429d7a2-ef6d-4582-a866-a478c4ef5f21"/>
+<img src=(https:<img width="2400" height="1260" alt="image" src="https://github.com/user-attachments/assets/d429d7a2-ef6d-4582-a866-a478c4ef5f21"/>
 BuildCores Parts List: [Link](https://uk.buildcores.com/builds/zT9H0Zxkz?share=true)
 
  
