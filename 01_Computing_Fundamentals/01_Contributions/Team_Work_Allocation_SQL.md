@@ -15,7 +15,8 @@
 
 | Member | Build / area owned | What they'll deliver |
 |--------|--------------------|----------------------|
-|Marcus| Administrative Assistant build |<p>Basic office hardware workstation with email, documents, spreadsheets, web systems, online meetings, and basic customer records. </p> |
+|Marcus| Administrative Assistant build |<p>Basic office hardware workstation with email, documents, spreadsheets, web systems, online meetings, and basic customer records. </p>|
+<img src=”[https://a.com” alt=”Alt](https://uk.buildcores.com/builds/zT9H0Zxkz?share=true)” />
 |MO| Project Manager build | |
 |Marcus| Architect / CAD Designer build | |
 |Charlie| 3D Visualisation Specialist build | |
