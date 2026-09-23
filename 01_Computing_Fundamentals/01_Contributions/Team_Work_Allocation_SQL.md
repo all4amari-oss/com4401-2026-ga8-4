@@ -37,7 +37,7 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/zT9H0Zxkz?share=t
 |[BuildCores Web](https://uk.buildcores.com)|[BuildCores iOS](https://apps.apple.com/us/app/buildcores-part-picker-for-pc/id1441971434)|[BuildCores Android](https://play.google.com/store/apps/details?id=com.buildcores.buildcores&pcampaignid=web_share)|
 
 |MO| Project Manager build | |
-|Marcus| Architect / CAD Designer build | |
+|Marcus| Architect / CAD Designer build |<p>CAD hardware workstation with dedicated GPU and suitable display with CAD drawings, 2D drafting, 3D modelling, large design files, multiple monitors, and design reviews. </p>|
 |Charlie| 3D Visualisation Specialist build | |
 
 > Add or remove a row for a 3- or 5-person team. Shared tasks (final recommendation, budget check, ethics write-up) can be added as extra rows.
