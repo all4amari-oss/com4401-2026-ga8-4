@@ -15,9 +15,9 @@
 
 | Section / theme | Responsible member(s) | Draft ready by |
 |-----------------|-----------------------|----------------|
-| Section 1: Password hygiene | | |
-| Section 2: Two-factor authentication | | |
-| Section 3: Phishing recognition | | |
+| Section 1: Password hygiene |Marcus| |
+| Section 2: Two-factor authentication |Charlie| |
+| Section 3: Phishing recognition |Sorana| |
 | Section 4: Safe use of devices | | |
 | Section 5: Public Wi-Fi | | |
 | Introduction & conclusion (whole team) | | |
