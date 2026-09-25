@@ -16,7 +16,7 @@
 
 | Member | Role / build owned | Qty | Budget each | Workstation level |
 |--------|--------------------|-----|-------------|-------------------|
-|Marcus | Administrative Assistant | 3 | £850 | Basic office hardware |
+|Sorana| Administrative Assistant | 3 | £850 | Basic office hardware |
 |MO| Project Manager | 2 | £1,250 | Business workstation |
 |Marcus| Architect / CAD Designer | 5 | £2,350 | CAD build with dedicated GPU |
 |Charlie| 3D Visualisation Specialist | 2 | £3,600 | High-performance rendering |
