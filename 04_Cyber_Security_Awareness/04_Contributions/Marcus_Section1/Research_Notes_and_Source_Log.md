@@ -124,3 +124,16 @@ All 4 peer-reviewed papers were found on Google Scholar. Authors, titles, years,
 
 ## Things I haven't checked yet
 - ~~Which Harvard variant the course uses~~ → UGM Harvard found on the uni's LEAP Online site (29/09/2026). Junior confirming with the tutor on 30/09.
+
+---
+
+## Sources added for the Introduction / Conclusion (29/09/2026)
+
+Each claim checked on the live page on 29/09/2026 using the citation-verification skill.
+
+| Source | Claim used | Checked wording on the page |
+|---|---|---|
+| Department for Science, Innovation and Technology (2025) *Cyber security breaches survey 2025* (published 10 April 2025) | 43% of UK businesses identified a breach or attack in the last 12 months | "down from 50% in 2024 to 43%" |
+| Same survey | 65% of businesses that had a breach named phishing the most disruptive | "most disruptive types of attack (by 65% of the businesses and 63% of the charities)" |
+| National Cyber Security Centre (N.D.c) *What we do at the NCSC* | Part of GCHQ, helps businesses, public sector and individuals; mission | "a part of GCHQ, helps businesses, the public sector and individuals..." / "Our mission is to make the UK the safest place to live and work online" |
+| Verizon (2025) 2025 DBIR press release (published 23 April 2025) | Human involvement in breaches remains high | "Human involvement in breaches remains high" |

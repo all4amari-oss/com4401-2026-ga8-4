@@ -6,15 +6,15 @@
 
 ## For the Introduction
 
-Most of us now bank, shop, work and keep in touch online, and every one of those accounts is something an attacker can target. In 2025, 43% of UK businesses reported a cyber security breach or attack in the previous 12 months (Department for Science, Innovation and Technology, 2025). Among those that had one, 65% named phishing as the most disruptive type of attack (DSIT, 2025).
+Most of us now bank, shop, work and keep in touch online, and every one of those accounts is something an attacker can target. In 2025, 43% of UK businesses identified a cyber security breach or attack in the previous 12 months (Department for Science, Innovation and Technology, 2025). Of the businesses that had one, 65% named phishing as the most disruptive type of attack (DSIT, 2025).
 
-Many attacks rely on people's habits more than on weak technology. An estimated 43% to 51% of users reuse the same password across different sites (Das et al., 2014), and in 2025 Verizon found that only 49% of a typical person's passwords were different from each other (Langlois, 2025). The 23andMe breach in 2023 was carried out using login details that people had reused after earlier, unrelated breaches (Information Commissioner's Office, 2025).
+Verizon's 2025 Data Breach Investigations Report found that human involvement in breaches remains high (Verizon, 2025). An estimated 43% to 51% of users reuse the same password across different sites (Das et al., 2014), and in 2025 Verizon found that only 49% of a typical person's passwords were different from each other (Langlois, 2025). In 2023 an attacker got into 23andMe accounts using login details that people had reused after earlier, unrelated breaches (Information Commissioner's Office, 2025).
 
-This report uses official bodies wherever possible. The National Cyber Security Centre (NCSC) is part of GCHQ and helps businesses, the public sector and individuals protect the online services and devices they depend on (National Cyber Security Centre, N.D.c). Its guidance is written to protect the public, not to sell a product, which is why it is used here ahead of company blogs.
+This report relies mainly on official bodies. The National Cyber Security Centre (NCSC) is part of GCHQ and helps businesses, the public sector and individuals protect the online services and devices they depend on. Its stated mission is to make the UK the safest place to live and work online (National Cyber Security Centre, N.D.c).
 
 ## For the Conclusion
 
-Use three random words, or at least 15 characters, for each account (NCSC, N.D.a; National Institute of Standards and Technology, 2025). Don't reuse passwords, because attackers use software to try leaked passwords on many other sites (Langlois, 2025). Let a password manager remember them, and turn on 2-step verification first, starting with your email account (NCSC, N.D.b). If a password is leaked, change it straight away. Otherwise there is no need to change passwords on a schedule (NIST, 2025).
+Use three random words, or at least 15 characters, for each account (NCSC, N.D.a; National Institute of Standards and Technology, 2025). Don't reuse passwords, because attackers use software to try leaked passwords on many other sites (Langlois, 2025). Let a password manager remember your passwords, and turn on 2-step verification first, starting with your email account (NCSC, N.D.b). If a password is leaked, change it straight away. Otherwise there is no need to change passwords on a schedule (NIST, 2025).
 
 ---
 
@@ -35,3 +35,5 @@ National Cyber Security Centre. (N.D.b) *Managing your passwords*. [Online] Avai
 National Cyber Security Centre. (N.D.c) *What we do at the NCSC*. [Online] Available from: https://www.ncsc.gov.uk/section/about-ncsc/what-we-do. [Accessed 29 September 2026].
 
 National Institute of Standards and Technology. (2025) *Digital identity guidelines: authentication and authenticator management (NIST Special Publication 800-63B-4)*. [Online] Gaithersburg, MD: NIST. Available from: https://pages.nist.gov/800-63-4/sp800-63b.html. [Accessed 25 September 2026].
+
+Verizon. (2025) *Verizon's 2025 Data Breach Investigations Report: alarming surge in cyberattacks through third-parties*. [Online] Available from: https://www.verizon.com/about/news/2025-data-breach-investigations-report. [Accessed 29 September 2026].

@@ -27,11 +27,11 @@
 
 *Everyone contributes to the introduction (brief page 22). Marcus's part is below. Other members add theirs, then the team merges it into one style.*
 
-Most of us now bank, shop, work and keep in touch online, and every one of those accounts is something an attacker can target. In 2025, 43% of UK businesses reported a cyber security breach or attack in the previous 12 months (Department for Science, Innovation and Technology, 2025). Among those that had one, 65% named phishing as the most disruptive type of attack (DSIT, 2025).
+Most of us now bank, shop, work and keep in touch online, and every one of those accounts is something an attacker can target. In 2025, 43% of UK businesses identified a cyber security breach or attack in the previous 12 months (Department for Science, Innovation and Technology, 2025). Of the businesses that had one, 65% named phishing as the most disruptive type of attack (DSIT, 2025).
 
-Many attacks rely on people's habits more than on weak technology. An estimated 43% to 51% of users reuse the same password across different sites (Das et al., 2014), and in 2025 Verizon found that only 49% of a typical person's passwords were different from each other (Langlois, 2025). The 23andMe breach in 2023 was carried out using login details that people had reused after earlier, unrelated breaches (Information Commissioner's Office, 2025).
+Verizon's 2025 Data Breach Investigations Report found that human involvement in breaches remains high (Verizon, 2025). An estimated 43% to 51% of users reuse the same password across different sites (Das et al., 2014), and in 2025 Verizon found that only 49% of a typical person's passwords were different from each other (Langlois, 2025). In 2023 an attacker got into 23andMe accounts using login details that people had reused after earlier, unrelated breaches (Information Commissioner's Office, 2025).
 
-This report uses official bodies wherever possible. The National Cyber Security Centre (NCSC) is part of GCHQ and helps businesses, the public sector and individuals protect the online services and devices they depend on (National Cyber Security Centre, N.D.c). Its guidance is written to protect the public, not to sell a product, which is why it is used here ahead of company blogs.
+This report relies mainly on official bodies. The National Cyber Security Centre (NCSC) is part of GCHQ and helps businesses, the public sector and individuals protect the online services and devices they depend on. Its stated mission is to make the UK the safest place to live and work online (National Cyber Security Centre, N.D.c).
 
 ---
 
@@ -115,7 +115,7 @@ The 22% figure at the start of this section comes from Verizon's 2025 Data Breac
 
 *Everyone contributes to the conclusion (brief page 22). Marcus's part is below.*
 
-Use three random words, or at least 15 characters, for each account (NCSC, N.D.a; NIST, 2025). Don't reuse passwords, because attackers use software to try leaked passwords on many other sites (Langlois, 2025). Let a password manager remember them, and turn on 2-step verification first, starting with your email account (NCSC, N.D.b). If a password is leaked, change it straight away. Otherwise there is no need to change passwords on a schedule (NIST, 2025).
+Use three random words, or at least 15 characters, for each account (NCSC, N.D.a; NIST, 2025). Don't reuse passwords, because attackers use software to try leaked passwords on many other sites (Langlois, 2025). Let a password manager remember your passwords, and turn on 2-step verification first, starting with your email account (NCSC, N.D.b). If a password is leaked, change it straight away. Otherwise there is no need to change passwords on a schedule (NIST, 2025).
 
 ---
 
@@ -146,3 +146,5 @@ Oesch, S. and Ruoti, S. (2020) That was then, this is now: a security evaluation
 Pearman, S., Zhang, S.A., Bauer, L., Christin, N. and Cranor, L.F. (2019) Why people (don't) use password managers effectively. In: *Fifteenth Symposium on Usable Privacy and Security (SOUPS 2019)*. Santa Clara, CA, August 2019. [Online] Berkeley, CA: USENIX Association, pp. 319-338. Available from: https://www.usenix.org/conference/soups2019/presentation/pearman. [Accessed 25 September 2026].
 
 Shay, R., Komanduri, S., Durity, A.L., Huh, P.S., Mazurek, M.L., Segreti, S.M., Ur, B., Bauer, L., Christin, N. and Cranor, L.F. (2016) Designing password policies for strength and usability. *ACM Transactions on Information and System Security*, [Online] 18(4), pp. 1-34. Available from: https://doi.org/10.1145/2891411. [Accessed 25 September 2026].
+
+Verizon. (2025) *Verizon's 2025 Data Breach Investigations Report: alarming surge in cyberattacks through third-parties*. [Online] Available from: https://www.verizon.com/about/news/2025-data-breach-investigations-report. [Accessed 29 September 2026].
