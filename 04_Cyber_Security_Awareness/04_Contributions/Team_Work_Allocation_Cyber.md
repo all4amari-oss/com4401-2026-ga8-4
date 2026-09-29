@@ -5,9 +5,9 @@
 
 | | |
 |---|---|
-| **Team name** | |
-| **Repository** | |
-| **How we'll keep in touch** | *(e.g. group chat, weekly check-in)* |
+| **Team name** | The Avengers |
+| **Repository** | com4401-2026-ga8-4 |
+| **How we'll keep in touch** | Snapchat |
 
 ---
 
@@ -15,7 +15,7 @@
 
 | Section / theme | Responsible member(s) | Draft ready by |
 |-----------------|-----------------------|----------------|
-| Section 1: Password hygiene |Marcus| |
+| Section 1: Password hygiene |Marcus| ✅ Drafted 29/09/2026 ([report](../Cyber_Security_Awareness_Report.md), [evidence](Marcus_Section1/Research_Notes_and_Source_Log.md)) |
 | Section 2: Two-factor authentication |Charlie| |
 | Section 3: Phishing recognition |Sorana| |
 | Section 4: Safe use of devices |Nah| |
