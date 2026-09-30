@@ -15,7 +15,7 @@
 - Introduction
 - 1. Password Hygiene (Marcus)
 - 2. Two-Factor Authentication (Charlie)
-- 3. Recognising Phishing (Sorana)
+- 3. Phishing and Social Engineering (Sorena)
 - 4. Safe Use of Devices (Nah)
 - 5. Safe Use of Public Wi-Fi (Mo)
 - Conclusion
@@ -43,13 +43,13 @@ Almost every online account starts with a password, which makes passwords one of
 
 ### 1.1 What makes a password strong
 
-For years the advice was to make passwords complicated, with capital letters, numbers and symbols, and to change them every few months. That advice backfired. People fall back on predictable tricks to meet complexity rules, like swapping the letter "o" for a zero or adding "!" to the end. Attackers know these tricks and use them to shape their guessing, so forcing complexity ends up producing more predictable passwords (NCSC, 2021). Most of us also have lots of passwords, and memorising lots of complex ones is close to impossible (NCSC, N.D.a).
+For years the advice was to make passwords complicated, with capital letters, numbers and symbols, and to change them every few months. That advice backfired. People fall back on predictable tricks to meet complexity rules, like swapping the letter "o" for a zero or adding "!" to the end. Attackers know these tricks and use them to shape their guessing, so forcing complexity ends up producing more predictable passwords (NCSC, 2021a). Most of us also have lots of passwords, and memorising lots of complex ones is close to impossible (NCSC, N.D.a).
 
 In the UK, the National Cyber Security Centre (NCSC) now recommends joining three random words together. That gives a password long enough and strong enough for most accounts, and far easier to remember. The NCSC also says writing a password down is fine, as long as you keep it somewhere safe (NCSC, N.D.a).
 
 In the US, the National Institute of Standards and Technology (NIST) has gone further. Its latest guidance says services must require at least 15 characters for a password used on its own. They must not force a mix of character types, and must not make people change passwords on a schedule unless there is evidence the password has been leaked. Services should check new passwords against lists of common and already-leaked ones instead (National Institute of Standards and Technology, 2025).
 
-A study of 15 different password rules with over 20,000 participants found that rules based on length can produce passwords that are both stronger and easier to use than rules based on complexity (Shay et al., 2016). The NCSC makes the same point about length. A password made of several words comes out longer, without relying on predictable add-ons like an "!" at the end (NCSC, 2021).
+A study of 15 different password rules with over 20,000 participants found that rules based on length can produce passwords that are both stronger and easier to use than rules based on complexity (Shay et al., 2016). The NCSC makes the same point about length. A password made of several words comes out longer, without relying on predictable add-ons like an "!" at the end (NCSC, 2021a).
 
 ### 1.2 Password managers
 
@@ -77,7 +77,7 @@ The 22% figure at the start of this section comes from Verizon's 2025 Data Breac
 
 | Do | Don't |
 |---|---|
-| Use three random words, or at least 15 characters (NCSC, N.D.a; NIST, 2025) | Rely on symbols and number swaps like "P@ssw0rd" (NCSC, 2021) |
+| Use three random words, or at least 15 characters (NCSC, N.D.a; NIST, 2025) | Rely on symbols and number swaps like "P@ssw0rd" (NCSC, 2021a) |
 | Use a different password for every account (NCSC, N.D.b) | Reuse a password, even with small changes (Das et al., 2014) |
 | Store them in a password manager, or write them down and keep them somewhere safe (NCSC, N.D.a; N.D.b) | Leave written passwords where other people can see them (NCSC, N.D.a) |
 | Turn on 2-step verification, starting with email (NCSC, N.D.b) | Assume a strong password alone is enough (NCSC, N.D.b) |
@@ -93,9 +93,132 @@ The 22% figure at the start of this section comes from Verizon's 2025 Data Breac
 
 ---
 
-## 3. Recognising Phishing
+## 3. Phishing and Social Engineering
 
-*[Sorana to add]*
+*Section owner: Sorena Golbarg (copied from Sorena's Phishing_Section3.pdf, uploaded 30/09/2026)*
+
+### 3.1 Phishing and its Different Forms
+
+#### 3.1.1 Phishing
+
+Phishing is a type of social engineering attack in which criminals impersonate a trusted organisation or individual in order to persuade victims to disclose sensitive information, transfer money, or visit a malicious website (National Institute of Standards and Technology, n.d.).
+
+#### 3.1.2 Spear Phishing
+
+Unlike general phishing attacks, spear phishing is highly targeted. Attackers use information about a specific organisation or employee to make the message more convincing and realistic (National Cyber Security Centre, 2018).
+
+**Illustrative example of general phishing:**
+
+> *Your Disney+ account has been suspended. Click here.*
+
+**Illustrative example of spear phishing:**
+
+> *Hi Alex, I need you to check the new finance report.*
+
+#### 3.1.3 Smishing
+
+Smishing is phishing conducted through SMS or other text messages. Attackers commonly use messages containing malicious links or other deceptive instructions to persuade victims to provide personal or financial information (Federal Bureau of Investigation, n.d.b).
+
+**Illustrative example:**
+
+> *Your parcel could not be delivered. Pay £3.50 to reschedule delivery.*
+
+#### 3.1.4 Vishing
+
+Vishing is phishing carried out through phone calls, voice messages or Voice over Internet Protocol (VoIP). Attackers may impersonate an official organisation, such as a bank or government department, to gain trust and request personal information (Federal Bureau of Investigation, n.d.b; NCSC, 2021b).
+
+**Illustrative example:**
+
+> *I am calling from the Metropolitan Police. Someone has committed an offence using your National Insurance number. Please provide your National Insurance number so that we can verify your identity.*
+
+#### 3.1.5 Business Email Compromise (BEC)
+
+Business Email Compromise usually targets organisations. Attackers may spoof or compromise email accounts and impersonate a colleague, manager, executive or trusted business contact. BEC often aims to persuade the victim to make a financial transfer or change payment details (Federal Bureau of Investigation, n.d.a).
+
+**Illustrative example:**
+
+> *Please transfer £10,000 to the new bank account of this supplier.*
+
+### 3.2 Psychological Techniques
+
+Phishing is not solely a technical problem; social-engineering attacks often rely on psychological techniques that influence how people respond to requests (Stylianou et al., 2025).
+
+#### 3.2.1 Authority
+
+Authority is an important social-engineering technique because people may be more willing to follow instructions that appear to come from a manager, government organisation or other trusted authority figure (Stylianou et al., 2025). Williams et al. (2018) examined nine simulated spear-phishing emails sent to 62,000 employees and found that authority cues increased the likelihood that a user would click a suspicious link.
+
+#### 3.2.2 Urgency
+
+Attackers often create artificial urgency by claiming that immediate action is required. This can reduce the time a victim has to evaluate a message carefully and can encourage faster decisions. Urgency is a recognised social-engineering technique in phishing messages (NCSC, 2021b; Williams et al., 2018).
+
+**Illustrative example:**
+
+> *Your account will be suspended in 50 minutes.*
+
+#### 3.2.3 Fear
+
+Fear can influence emotional decision-making. Scam messages may make a person panic or feel threatened in order to pressure them into acting without thinking carefully (NCSC, 2021b).
+
+**Illustrative example:**
+
+> *Suspicious activity has been detected. Your bank account will be locked.*
+
+#### 3.2.4 Scarcity / Fear of Missing Out
+
+Scarcity is used when a message suggests that an opportunity is limited or may disappear quickly. The NCSC notes that fear of missing out can make people respond more quickly to a scam message (NCSC, 2021b).
+
+**Illustrative example:**
+
+> *Only 4 places remaining. Claim your reward now or lose the opportunity.*
+
+Overall, the effectiveness of phishing often depends on manipulating normal human responses such as trust, authority, urgency, fear and scarcity (Stylianou et al., 2025; NCSC, 2021b).
+
+### 3.3 Indicators of Phishing
+
+According to the National Cyber Security Centre (NCSC, 2026), common indicators of phishing include:
+
+- Misspelled or suspicious email addresses
+- Unexpected attachments
+- Generic greetings such as "Dear valued customer"
+- Links that direct users to unknown websites
+- Spelling and grammar mistakes
+- Poor-quality or strange-looking logos
+- Messages that pressure the user to act quickly
+
+The sender's email address should be checked carefully because attackers may create addresses that differ from legitimate ones by only a single letter, number or symbol (Federal Bureau of Investigation, n.d.b).
+
+**Example:**
+
+> *Legitimate: support@paypal.com*
+> *Fake: support@paypa1.com*
+
+However, users should not rely only on these signs. The NCSC explains that modern scams are becoming more convincing and can sometimes fool experienced users, so a professional-looking message should not automatically be trusted (NCSC, 2021b).
+
+### 3.4 What Should Someone Do if They Suspect or Click Phishing?
+
+#### 3.4.1 If a Message Looks Suspicious
+
+If a message appears suspicious, the recipient should not click links, open attachments or use contact details provided in the message. Instead, the organisation should be contacted independently using verified details from its official website. The user can also visit the organisation's official website manually to check their account (NCSC, 2021b).
+
+#### 3.4.2 If the User Has Already Clicked or Shared Information
+
+- If a password was entered, the user should change that password and any other accounts that use the same password (NCSC, 2021c).
+- If banking details were shared, the user should contact their bank immediately (NCSC, 2021c).
+- If a suspicious application or file was installed, the user should run a full antivirus scan and allow the security software to remove any problems it finds (NCSC, 2021c).
+- If the incident happened on a work laptop or phone, the user should inform the organisation's IT department (NCSC, 2021c).
+
+#### 3.4.3 Organisational Response
+
+At organisational level, phishing should be addressed through multiple layers of security rather than relying entirely on employees to recognise every attack. The NCSC recommends a layered approach that combines technical, process and people-based controls (NCSC, 2018).
+
+- Email filtering and malware detection
+- Multi-factor authentication (MFA)
+- Anti-spoofing controls such as SPF, DKIM and DMARC
+- Security-awareness training and simple reporting processes
+- Security monitoring and logging
+- A documented and practised incident-response plan
+
+Employee awareness is important, but it should not be the organisation's only defence. The NCSC states that training cannot teach users to identify every phishing attempt, so technical controls and incident-response procedures are also required (NCSC, 2018).
 
 ---
 
@@ -127,11 +250,23 @@ Das, A., Bonneau, J., Caesar, M., Borisov, N. and Wang, X. (2014) The tangled we
 
 Department for Science, Innovation and Technology. (2025) *Cyber security breaches survey 2025*. [Online] Available from: https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2025/cyber-security-breaches-survey-2025. [Accessed 29 September 2026].
 
+Federal Bureau of Investigation. (n.d.a) *Business email compromise*. [Online] Available from: https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams/business-email-compromise. [Accessed 30 September 2026].
+
+Federal Bureau of Investigation. (n.d.b) *Spoofing and phishing*. [Online] Available from: https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams/spoofing-and-phishing. [Accessed 30 September 2026].
+
 Information Commissioner's Office. (2025) *23andMe fined £2.31 million for failing to protect UK users' genetic data*. [Online] Available from: https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2025/06/23andme-fined-for-failing-to-protect-uk-users-genetic-data/. [Accessed 25 September 2026].
 
 Langlois, P. (2025) *Additional 2025 DBIR research on credential stuffing*. [Online] Verizon Business. Available from: https://www.verizon.com/business/resources/articles/credential-stuffing-attacks-2025-dbir-research/. [Accessed 25 September 2026].
 
-National Cyber Security Centre. (2021) *The logic behind three random words*. [Online] Available from: https://www.ncsc.gov.uk/blog-post/the-logic-behind-three-random-words. [Accessed 25 September 2026].
+National Cyber Security Centre. (2018) *Phishing attacks: defending your organisation*. [Online] Available from: https://www.ncsc.gov.uk/guidance/phishing. [Accessed 30 September 2026].
+
+National Cyber Security Centre. (2021a) *The logic behind three random words*. [Online] Available from: https://www.ncsc.gov.uk/blog-post/the-logic-behind-three-random-words. [Accessed 25 September 2026].
+
+National Cyber Security Centre. (2021b) *Phishing scams: how to spot and report them*. [Online] Available from: https://www.ncsc.gov.uk/collection/phishing-scams/spot-scams. [Accessed 30 September 2026].
+
+National Cyber Security Centre. (2021c) *Phishing scams: if you've shared sensitive information*. [Online] Available from: https://www.ncsc.gov.uk/collection/phishing-scams/what-to-do. [Accessed 30 September 2026].
+
+National Cyber Security Centre. (2026) *Small organisations guide to cyber security: spotting cyber attacks*. [Online] Available from: https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security/spotting-cyber-attacks. [Accessed 30 September 2026].
 
 National Cyber Security Centre. (N.D.a) *Three random words*. [Online] Available from: https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words. [Accessed 25 September 2026].
 
@@ -141,10 +276,16 @@ National Cyber Security Centre. (N.D.c) *What we do at the NCSC*. [Online] Avail
 
 National Institute of Standards and Technology. (2025) *Digital identity guidelines: authentication and authenticator management (NIST Special Publication 800-63B-4)*. [Online] Gaithersburg, MD: NIST. Available from: https://pages.nist.gov/800-63-4/sp800-63b.html. [Accessed 25 September 2026].
 
+National Institute of Standards and Technology. (n.d.) *Phishing*. [Online] Available from: https://csrc.nist.gov/glossary/term/phishing. [Accessed 30 September 2026].
+
 Oesch, S. and Ruoti, S. (2020) That was then, this is now: a security evaluation of password generation, storage, and autofill in browser-based password managers. In: *Proceedings of the 29th USENIX Security Symposium*. August 2020. [Online] Berkeley, CA: USENIX Association, pp. 2165-2182. Available from: https://www.usenix.org/conference/usenixsecurity20/presentation/oesch. [Accessed 25 September 2026].
 
 Pearman, S., Zhang, S.A., Bauer, L., Christin, N. and Cranor, L.F. (2019) Why people (don't) use password managers effectively. In: *Fifteenth Symposium on Usable Privacy and Security (SOUPS 2019)*. Santa Clara, CA, August 2019. [Online] Berkeley, CA: USENIX Association, pp. 319-338. Available from: https://www.usenix.org/conference/soups2019/presentation/pearman. [Accessed 25 September 2026].
 
 Shay, R., Komanduri, S., Durity, A.L., Huh, P.S., Mazurek, M.L., Segreti, S.M., Ur, B., Bauer, L., Christin, N. and Cranor, L.F. (2016) Designing password policies for strength and usability. *ACM Transactions on Information and System Security*, [Online] 18(4), pp. 1-34. Available from: https://doi.org/10.1145/2891411. [Accessed 25 September 2026].
 
+Stylianou, I., Bountakas, P., Zarras, A. and Xenakis, C. (2025) Suspicious minds: psychological techniques correlated with online phishing attacks. *Computers in Human Behavior Reports*, [Online] 19, article 100694. Available from: https://doi.org/10.1016/j.chbr.2025.100694. [Accessed 30 September 2026].
+
 Verizon. (2025) *Verizon's 2025 Data Breach Investigations Report: alarming surge in cyberattacks through third-parties*. [Online] Available from: https://www.verizon.com/about/news/2025-data-breach-investigations-report. [Accessed 29 September 2026].
+
+Williams, E.J., Hinds, J. and Joinson, A.N. (2018) Exploring susceptibility to phishing in the workplace. *International Journal of Human-Computer Studies*, [Online] 120, pp. 1-13. Available from: https://doi.org/10.1016/j.ijhcs.2018.06.004. [Accessed 30 September 2026].
