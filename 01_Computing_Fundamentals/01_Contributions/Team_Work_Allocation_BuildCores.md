@@ -16,10 +16,10 @@
 
 | Member | Role / build owned | Qty | Budget each | Workstation level |
 |--------|--------------------|-----|-------------|-------------------|
-|Sorena| Administrative Assistant | 3 | £850 | Basic office hardware |
+|Sorena| Administrative Assistant | 3 | £950 | Basic office hardware |
 |MO| Project Manager | 2 | £1,250 | Business workstation |
 |Marcus| Architect / CAD Designer | 5 | £2,350 | CAD build with dedicated GPU |
-|Charlie| 3D Visualisation Specialist | 2 | £3,600 | High-performance rendering |
+|Charlie| 3D Visualisation Specialist | 2 | £3,750 | High-performance rendering |
 
 > Each member owns one role build: create the base unit on BuildCores.com, cost the peripherals from reputable UK retailers, and justify each choice for the role. Total allocated hardware budget £24,000, plus £2,000 contingency = **£26,000 team maximum**.
 
