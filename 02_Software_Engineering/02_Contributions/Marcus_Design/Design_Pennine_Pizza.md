@@ -349,7 +349,7 @@ This table records each decision taken where the brief is silent, in the same wa
 
 ## Test plan design
 
-Marcus worked out the expected results before the build. Nah runs these tests on Sorena's Flowgorithm program and records the actual results.
+The expected results were worked out by hand before the build. Nah runs these tests on Sorena's Flowgorithm program and records the actual results.
 
 | # | Type | Test data | Expected result | Actual result | Pass / Fail |
 |---|---|---|---|---|---|
@@ -376,7 +376,7 @@ Marcus worked out the expected results before the build. Nah runs these tests on
 
 ### Worked calculation (Test 2)
 
-Marcus worked out the expected result for Test 2 step by step before the build. Nah compares the program's answer against it.
+The expected result for Test 2 was worked out by hand before the build. Nah compares the program's answer against it.
 
 | Step | Working | Result |
 |---|---|---|
