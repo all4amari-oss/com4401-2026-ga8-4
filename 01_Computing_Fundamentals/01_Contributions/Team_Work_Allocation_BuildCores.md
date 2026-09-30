@@ -16,7 +16,7 @@
 
 | Member | Role / build owned | Qty | Budget each | Workstation level |
 |--------|--------------------|-----|-------------|-------------------|
-|Sorana| Administrative Assistant | 3 | £850 | Basic office hardware |
+|Sorena| Administrative Assistant | 3 | £850 | Basic office hardware |
 |MO| Project Manager | 2 | £1,250 | Business workstation |
 |Marcus| Architect / CAD Designer | 5 | £2,350 | CAD build with dedicated GPU |
 |Charlie| 3D Visualisation Specialist | 2 | £3,600 | High-performance rendering |
@@ -29,7 +29,7 @@
 
 R = Responsible · A = Accountable · C = Consulted · I = Informed
 
-| Task | Member 1 | Member 2 | Member 3 | Member 4 |
+| Task | Marcus | Charlie | Sorena | MO |
 |------|----------|----------|----------|----------|
 | Administrative Assistant build (BuildCores + peripherals) | | | | |
 | Project Manager build (BuildCores + peripherals) | | | | |
