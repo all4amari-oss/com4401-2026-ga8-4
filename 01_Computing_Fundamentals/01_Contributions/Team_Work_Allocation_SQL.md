@@ -72,7 +72,7 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/zT9H0Zxkz?share=t
 |--------|--------------------|----------------------|
 |Charlie| 3D Visualisation Specialist build |<p>High-performance workstation designed for rendering, 3D visualisation, large architectural models, high-resolution textures, media output and client visual presentations</p>|
 
-<img width="2400" height="1260" alt="image" src="https://uk.buildcores.com/builds/g0YueYD2r?share=true" />
+<img width="2048" height="1075" alt="buildcores" src="https://github.com/user-attachments/assets/0ce21898-99af-4c5f-aa49-f614fb8a2721" />
 
 |**Component**|**Title**|**Price**|**Justification**|
 |:-|:-|:-|:-|
