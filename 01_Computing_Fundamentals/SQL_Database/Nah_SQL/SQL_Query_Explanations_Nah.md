@@ -97,7 +97,8 @@ JOIN EmployeeRoles ON WorkstationBuilds.RoleID = EmployeeRoles.RoleID;
 ```
 *Explanation to come.*
 
-![Query 10 result](Evidence/SQL_Queries/Q10.png)
+![Query 10 result, part 1](Evidence/SQL_Queries/Q10a.png)
+![Query 10 result, part 2](Evidence/SQL_Queries/Q10b.png)
 
 ### Query 11: Spend per role
 ```sql

@@ -115,3 +115,12 @@ INSERT INTO BuildItems VALUES (401, 4, 'Case/Cooling', 'Corsair 3200D RS ARGB Bl
 INSERT INTO BuildItems VALUES (402, 4, 'CPU', 'AMD Ryzen 9 9950X', '16 cores, 32 threads', 433.99);
 INSERT INTO BuildItems VALUES (403, 4, 'Motherboard', 'MSI B850 GAMING PLUS WIFI', 'AM5, DDR5, ATX, wired and wireless networking', 144.98);
 INSERT INTO BuildItems VALUES (404, 4, 'GPU', 'GIGABYTE GeForce RTX 5070 Ti WINDFORCE OC SFF', '16GB GDDR7', 1116.99);
+INSERT INTO BuildItems VALUES (405, 4, 'RAM', 'Silicon Power Zenith 64GB (2x32GB)', '64GB (2x32GB) DDR5-6000 CL30', 926.99);
+INSERT INTO BuildItems VALUES (406, 4, 'Case/Cooling', 'ARCTIC Liquid Freezer III 280 A-RGB', '280mm liquid CPU cooler', 82.19);
+INSERT INTO BuildItems VALUES (407, 4, 'Storage', 'WD_BLACK SN7100 2TB', '2TB M.2-2280 PCIe 4.0 x4 NVMe SSD', 229.99);
+INSERT INTO BuildItems VALUES (408, 4, 'PSU', 'Corsair RM1000e (2025)', '1000W, ATX, fully modular', 149.90);
+INSERT INTO BuildItems VALUES (409, 4, 'Monitor', 'AOC U27B3A', '27-inch 4K (3840x2160) 60Hz IPS', 138.97);
+INSERT INTO BuildItems VALUES (410, 4, 'Keyboard', 'Logitech MK270 Wireless Combo', 'Wireless keyboard and mouse combo', 22.49);
+INSERT INTO BuildItems VALUES (411, 4, 'Webcam/Headset', 'HyperX Cloud III', 'Over-ear headset with noise-cancelling microphone', 64.99);
+INSERT INTO BuildItems VALUES (412, 4, 'Webcam/Headset', 'Logitech C920e Webcam', '1080p webcam with microphone', 56.99);
+INSERT INTO BuildItems VALUES (413, 4, 'Network/Cables/Adapters', 'RS PRO Cat6 Ethernet Cable', 'Cat6 ethernet cable, 2m', 6.79);
