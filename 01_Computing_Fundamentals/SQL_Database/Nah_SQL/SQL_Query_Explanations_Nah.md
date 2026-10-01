@@ -54,7 +54,7 @@ This query shows every column for all the items in build 1, which is Sorena's Ad
 ```sql
 SELECT COUNT(*) FROM BuildItems WHERE BuildID = 1;
 ```
-*Explanation to come.*
+This query counts how many items are in build 1 (Sorena's Administrative Assistant build). Instead of listing the items, COUNT(\*) counts the rows and gives one number. It showed 12, because there are 12 items in the build. It works like counting the items in a shopping basket.
 
 ![Query 6 result](Evidence/SQL_Queries/Q06.png)
 
@@ -64,7 +64,7 @@ SELECT COUNT(*) FROM BuildItems WHERE BuildID = 1;
 ```sql
 SELECT SUM(Cost) FROM BuildItems WHERE BuildID = 1;
 ```
-*Explanation to come.*
+This query adds up the cost of every item in build 1 (Sorena's Administrative Assistant build). COUNT tells the amount of items, but SUM tells the cost, by adding up all the numbers in the Cost column. It showed £808.81, which matches Sorena's total on GitHub, so the database is accurate.
 
 ![Query 7 result](Evidence/SQL_Queries/Q07.png)
 
@@ -72,7 +72,7 @@ SELECT SUM(Cost) FROM BuildItems WHERE BuildID = 1;
 ```sql
 SELECT BuildID, SUM(Cost) FROM BuildItems GROUP BY BuildID ORDER BY SUM(Cost) DESC;
 ```
-*Explanation to come.*
+This query shows the total cost of each build, with the most expensive first. GROUP BY puts the items into a separate group for each build, like a separate shopping basket for each person, and SUM adds up each group. ORDER BY … DESC sorts them biggest first, so build 4 (£3,445.21) is at the top, then build 3 (£1,844.50), then build 1 (£808.81).
 
 ![Query 8 result](Evidence/SQL_Queries/Q08.png)
 
@@ -84,7 +84,7 @@ SELECT WorkstationBuilds.BuildName, EmployeeRoles.RoleName
 FROM WorkstationBuilds
 JOIN EmployeeRoles ON WorkstationBuilds.RoleID = EmployeeRoles.RoleID;
 ```
-*Explanation to come.*
+This query shows each build's name next to the role it belongs to. The build names are in the WorkstationBuilds table and the role names are in the EmployeeRoles table, so I used JOIN to combine them. Both tables share the RoleID column, so JOIN matches up the rows with the same RoleID, like matching a locker list to a class register using the student ID.
 
 ![Query 9 result](Evidence/SQL_Queries/Q09.png)
 
@@ -95,7 +95,7 @@ FROM BuildItems
 JOIN WorkstationBuilds ON BuildItems.BuildID = WorkstationBuilds.BuildID
 JOIN EmployeeRoles ON WorkstationBuilds.RoleID = EmployeeRoles.RoleID;
 ```
-*Explanation to come.*
+This query shows every item with the build it is in and the role that build is for. It links three tables using two JOINs: BuildItems joins to WorkstationBuilds using BuildID, and WorkstationBuilds joins to EmployeeRoles using RoleID. It works like following a chain, from a lost item to its locker to the student's name. It showed 39 items across the three builds.
 
 ![Query 10 result, part 1](Evidence/SQL_Queries/Q10a.png)
 ![Query 10 result, part 2](Evidence/SQL_Queries/Q10b.png)
@@ -108,7 +108,7 @@ JOIN WorkstationBuilds ON BuildItems.BuildID = WorkstationBuilds.BuildID
 JOIN EmployeeRoles ON WorkstationBuilds.RoleID = EmployeeRoles.RoleID
 GROUP BY EmployeeRoles.RoleName;
 ```
-*Explanation to come.*
+This query shows the total hardware cost for each job role. It uses the same two JOINs as Query 10 to link each item to its build and then to its role. Then GROUP BY makes one group per role, and SUM adds up the costs in each group, like Query 8 but grouped by role instead of by build. The 3D Visualisation Specialist costs the most (£3,445.21), because 3D work needs the most powerful parts.
 
 ![Query 11 result](Evidence/SQL_Queries/Q11.png)
 
@@ -119,7 +119,7 @@ GROUP BY EmployeeRoles.RoleName;
 ```sql
 SELECT * FROM Recommendations;
 ```
-*Explanation to come.*
+This query uses `*` to show every column in the Recommendations table, to check it works, because the brief asks for every table to be queried. It showed 1 row, the recommendation for RoleID 3 (Architect / CAD Designer), which Marcus wrote. The other team members' recommendations have not been added yet.
 
 ![Recommendations, part 1](Evidence/SQL_Queries/Check_Recommendations_a.png)
 ![Recommendations, part 2](Evidence/SQL_Queries/Check_Recommendations_b.png)
