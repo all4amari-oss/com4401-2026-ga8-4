@@ -92,7 +92,7 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/zT9H0Zxkz?share=t
 |**Total Price**|**£3,445.21**| | 
 |[BuildCores Web](https://uk.buildcores.com)|[BuildCores iOS](https://apps.apple.com/us/app/buildcores-part-picker-for-pc/id1441971434)|[BuildCores Android](https://play.google.com/store/apps/details?id=com.buildcores.buildcores&pcampaignid=web_share)|
 
-Prices were checked on 25/09/2026. Retailer links are provided as pricing evidence where BuildCores did not display a price. The BuildCores automatic total may differ because some manually added retailer prices are not included. The total of £3,445.21 is per workstation. This is within the £3,750 hardware budget per workstation, leaving £304.79 per workstation.
+<p>Prices were checked on 25/09/2026. Retailer links are provided as pricing evidence where BuildCores did not display a price. The BuildCores automatic total may differ because some manually added retailer prices are not included. The total of £3,445.21 is per workstation. This is within the £3,750 hardware budget per workstation, leaving £304.79 per workstation.</p>
 ---
 ## 2. Responsibility Assignment (RACI)
 
