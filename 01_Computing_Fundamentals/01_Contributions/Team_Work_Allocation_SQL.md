@@ -74,6 +74,10 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/zT9H0Zxkz?share=t
 
 <img width="2048" height="1075" alt="buildcores" src="https://github.com/user-attachments/assets/0ce21898-99af-4c5f-aa49-f614fb8a2721" />
 
+**Workstations required:** 2  
+**Budget per workstation:** £3,750  
+**Total role budget:** £7,500  
+
 |**Component**|**Title**|**Price**|**Justification**|
 |:-|:-|:-|:-|
 |Case|[Corsair 3200D RS ARGB Black](https://uk.buildcores.com/products/PCCase/d7balvove/Corsair-3200D-RS-ARGB-Black)|[£69.95 (Amazon)](https://www.amazon.co.uk/dp/B0GBXXB5L3?tag=buildcoresx-21&linkCode=ogi&th=1&psc=1)|The case provides strong airflow and sufficient space for the high-performance components. Good airflow is important during long rendering sessions to help maintain stable operating temperatures.|
