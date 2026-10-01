@@ -72,6 +72,8 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/zT9H0Zxkz?share=t
 |--------|--------------------|----------------------|
 |Charlie| 3D Visualisation Specialist build |<p>High-performance workstation designed for rendering, 3D visualisation, large architectural models, high-resolution textures, media output and client visual presentations</p>|
 
+<img width="2400" height="1260" alt="image" src="https://uk.buildcores.com/builds/g0YueYD2r?share=true" />
+
 |**Component**|**Title**|**Price**|**Justification**|
 |:-|:-|:-|:-|
 |Case|[Corsair 3200D RS ARGB Black](https://uk.buildcores.com/products/PCCase/d7balvove/Corsair-3200D-RS-ARGB-Black)|[£69.95 (Amazon)](https://www.amazon.co.uk/dp/B0GBXXB5L3?tag=buildcoresx-21&linkCode=ogi&th=1&psc=1)|The case provides strong airflow and sufficient space for the high-performance components. Good airflow is important during long rendering sessions to help maintain stable operating temperatures.|
