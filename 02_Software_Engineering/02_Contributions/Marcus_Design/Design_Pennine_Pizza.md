@@ -65,7 +65,9 @@ Main
 └── displayBill
 ```
 
-*To draw in draw.io (page 2 of PenninePizzaDesign.drawio).*
+![Figure 1: Structure chart](Structure_chart.png)
+
+*Figure 1: Structure chart (drawn from page 2 of PenninePizzaDesign.drawio)*
 
 ## 2.2 Main flowchart design
 
@@ -81,13 +83,15 @@ Main sets up the storage, then calls one subroutine for each stage of the order.
 | 6 | Call | `calcTotals(sizePrice, toppingPrice, chosenSize, chosenToppings, noOfPizzas, delivery, totals)`: subtotal, discount, delivery charge, total. |
 | 7 | Call | `displayBill(customerDetails, sizeNames, sizePrice, toppingPrice, chosenSize, chosenToppings, noOfPizzas, totals)`: the itemised bill. |
 
-*To draw in draw.io (page 1 of PenninePizzaDesign.drawio).*
+![Figure 2: Main flowchart design](Main_flowchart.png)
+
+*Figure 2: Main flowchart design (drawn from page 1 of PenninePizzaDesign.drawio)*
 
 ## 2.3 Data plan
 
 ### Data structures (arrays)
 
-Main declares every array. Flowgorithm passes arrays by reference, so a subroutine can fill an array that Main owns.
+Main declares every array the subroutines share. Flowgorithm passes arrays by reference, so a subroutine can fill an array that Main owns.
 
 | Array | Type | Size | Holds | Example |
 |---|---|---|---|---|
@@ -98,6 +102,7 @@ Main declares every array. Flowgorithm passes arrays by reference, so a subrouti
 | chosenSize | Integer | 6 | The size ID of each pizza ordered. Only positions 0 to noOfPizzas − 1 are used. | chosenSize[0] = 2 |
 | chosenToppings | Integer | 6 | The number of toppings on each pizza, in the same order as chosenSize. | chosenToppings[0] = 2 |
 | totals | Real | 4 | [0] subtotal, [1] discount, [2] delivery charge, [3] final total | totals[3] = 19.00 |
+| label | String | 3 | The word used in each prompt: "Name", "Address", "PhoneNo". Declared in getCustomerDetails, not Main. | label[1] = "Address" |
 
 sizeNames and sizePrice are parallel arrays: the same index gives the name and price of the same size. chosenSize stores indexes into both, so `sizePrice[chosenSize[0]]` is the price of the first pizza.
 
@@ -113,6 +118,7 @@ toppingPrice uses the number of toppings as the index. Any number of 4 or more u
 | choice | Integer | makeSizeChoice | The size ID typed in | 0 to 2 |
 | toppings | Integer | getToppings | The number of toppings typed in | 0 or more |
 | loop | Integer | several | For loop counter, local to each subroutine | set by each loop |
+| details | String | checkBlank (parameter and return value) | The customer detail being checked | Must not be blank |
 
 ## 2.4 Subroutine specifications
 
@@ -164,7 +170,30 @@ END SUBROUTINE
 
 ### getCustomerDetails and checkBlank
 
-The same as the Supercar solution: a For loop uses a label array ("Name", "Address", "PhoneNo") to ask for each detail, and checkBlank asks again while the entry is blank.
+```
+SUBROUTINE getCustomerDetails(customerDetails[])
+    DECLARE String label[3]
+    label[0] = "Name"
+    label[1] = "Address"
+    label[2] = "PhoneNo"
+    DECLARE Integer loop
+    FOR loop = 0 TO 2
+        OUTPUT "Enter " & label[loop] & " :"
+        INPUT customerDetails[loop]
+        // Make sure the entry is not blank
+        customerDetails[loop] = checkBlank(customerDetails[loop])
+    NEXT loop
+END SUBROUTINE
+
+FUNCTION checkBlank(details) RETURNS String details
+    // Ask again while the entry is blank
+    WHILE ToCode(Char(details & " ",0)) = 32
+        OUTPUT "This cannot be blank, try again!"
+        INPUT details
+    END WHILE
+    RETURN details
+END FUNCTION
+```
 
 ### getPizzas
 
