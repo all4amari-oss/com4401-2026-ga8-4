@@ -1,8 +1,8 @@
 -- ============================================
 -- Mini Project 1: Northwest Architecture Studio
 -- Team: The Avengers
--- Follows the ER diagram on page 8 of the brief
--- Budgets from the brief (page 4)
+-- Follows the ER diagram on page 7 of the brief (Design: E-R Diagram)
+-- Budgets from the brief (page 3, Organisation & Budget)
 -- ============================================
 
 -- 1. EMPLOYEE ROLES
