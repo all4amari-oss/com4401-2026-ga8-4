@@ -39,7 +39,35 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/zT9H0Zxkz?share=t
 
 | Member | Build / area owned | What they'll deliver |
 |--------|--------------------|----------------------|
-|MO| Project Manager build | |
+|Nah| Project Manager build (taken over from Mo) |<p>Business hardware workstation with a stronger display/workflow setup (two monitors) for reports, meetings, project planning, reviewing drawings, dashboards and client communication.</p>|
+
+![Project Manager build on BuildCores, part 1](PM_Build_Evidence/PM_Build_1.png)
+![Project Manager build on BuildCores, part 2](PM_Build_Evidence/PM_Build_2.png)
+![Project Manager build on BuildCores, part 3](PM_Build_Evidence/PM_Build_3.png)
+
+BuildCores Parts List: [Link](https://uk.buildcores.com/builds/-2koTmVPS?share=true)
+
+|**Component**|**Title**|**Price**|**Justification**|
+|:-|:-|:-|:-|
+|CPU|AMD Ryzen 5 8600G|£149.99 (Amazon)|A Project Manager works with emails, reports, video calls and dashboards, often at the same time, so the 6 cores are enough to run them all at once without slowing down. It also has built-in graphics, so no separate graphics card is needed, which saves money for better monitors.|
+|Motherboard|GIGABYTE EAGLE B850M WIFI6E AM5 DDR5 Micro ATX|£142.99 (CCL)|The motherboard has an AM5 socket, so it fits the Ryzen 5 8600G CPU. It has 3 video ports (1 HDMI and 2 DisplayPort), so both monitors can plug straight into the motherboard, without needing a graphics card.|
+|RAM|CORSAIR Vengeance 32GB (2x16GB) DDR5 6000 CL30 Black|£449.99 (Overclockers UK)|The Project Manager has lots open at once, like emails, reports, dashboards and video calls, so 32GB of RAM lets them all run smoothly at the same time. They also review drawings, which can be large files, so the extra memory stops the computer slowing down when opening them.|
+|Storage|ADATA LEGEND 860 1TB SSD M.2 PCIe 4.0 NVMe|£139.99 (Overclockers UK)|1TB gives plenty of space for reports, spreadsheets and drawings to review, without paying for more than they need.|
+|Power Supply|MSI MAG A650GL Black 650W Fully Modular 80+ Gold Certified ATX|£70.99 (CCL)|650W is more than enough for this build, which has no graphics card, with room to spare.|
+|Case|Montech X5M Micro ATX Mini Tower Black with Tempered Glass Side Panel|£41.10 (Amazon)|It fits the Micro ATX motherboard.|
+|Monitor|ViewSonic VX2418C 24" 1080p 165Hz VA Curved Monitor|£116.92 (Amazon)|Two 24-inch screens let the Project Manager have reports, dashboards and video calls open side by side.|
+|Monitor|ViewSonic VX2418C 24" 1080p 165Hz VA Curved Monitor|£116.92 (Amazon)|Second, identical monitor for the two-screen setup, so both screens match.|
+|Keyboard|Logitech K120 UK Layout Wired Standard Keyboard|£10.02 (Laptop Outlet)|It has a UK layout, so the keys match what UK staff are used to. It is a full-size keyboard with a number pad, which is useful for typing figures into budgets and spreadsheets. It is reliable and low-cost, which leaves budget for the parts that matter more, like the monitors.|
+|Mouse|Logitech M190 Wireless/Wired Optical Mouse|£11.99 (CCL)|It is a full-size mouse, so it is comfortable to use all day. It is wireless, which keeps the desk tidy with two monitors and lots of cables. It is from a trusted brand and low-cost, which keeps the build within budget.|
+|Webcam|Logitech C270 720p Webcam|£18.01 (Box.co.uk)|The Project Manager has meetings and client calls, so a webcam is needed for video calls. 720p is clear enough for video calls, and it is low-cost, which keeps the build within budget. It is from a trusted brand, Logitech, so it is reliable.|
+|Headphones|Razer Kraken 7.1 Channel Closed Headset|£21.69 (Box.co.uk)|It has a built-in microphone, so the Project Manager can be heard clearly in meetings and client calls. It is closed-back, which blocks out office noise and keeps calls private. It is low-cost, which keeps the build within budget.|
+|Network Cable|CSL - 2m CAT6 Ethernet LAN Cable - High-Speed Patch Cord - Gigabit RJ45 Network Lead 1000 Mbps - Black|£5.99 (Amazon)*|The motherboard has wired ethernet built in, so only a cable is needed to connect to the office network. A wired connection is faster and more reliable than Wi-Fi for video calls and opening large files from the office server. It is low-cost, which keeps the build within budget.|
+| | | | |
+|**Total Price**|**£1,296.59**| | |
+|[BuildCores Web](https://uk.buildcores.com)|[BuildCores iOS](https://apps.apple.com/us/app/buildcores-part-picker-for-pc/id1441971434)|[BuildCores Android](https://play.google.com/store/apps/details?id=com.buildcores.buildcores&pcampaignid=web_share)|
+
+<p>Prices were checked on 02/10/2026. The total of £1,296.59 is per workstation, £3.41 under the £1,300 budget per workstation (2 workstations = £2,593.18 against a £2,600 role budget). *The network cable is not listed on BuildCores, so its price was taken from the Amazon UK page; this is why the BuildCores total (£1,290.60) is £5.99 lower.</p>
+
 
 | Member | Build / area owned | What they'll deliver |
 |--------|--------------------|----------------------|
