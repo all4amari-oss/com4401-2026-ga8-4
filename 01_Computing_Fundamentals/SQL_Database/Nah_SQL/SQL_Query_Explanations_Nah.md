@@ -131,3 +131,47 @@ This checks every column in the Recommendations table, because the brief asks fo
 ![Recommendations: Compromise, part 2](Evidence/SQL_Queries/Check_Recommendations_3b.png)
 ![Recommendations: EthicalNotes, part 1](Evidence/SQL_Queries/Check_Recommendations_4a.png)
 ![Recommendations: EthicalNotes, part 2](Evidence/SQL_Queries/Check_Recommendations_4b.png)
+
+---
+
+## Data integrity: how the database stops bad data
+
+The tables have rules built in, so the database refuses bad data instead of saving it. I tested 4 rules by trying to add a bad row on purpose on OneCompiler (MySQL), on 02/10/2026. Each one was refused.
+
+**1. Unique IDs (PRIMARY KEY).** Every item needs its own ItemID, like no two students can have the same student ID. I tried to add a second item with ItemID 201, which is already my Montech case.
+
+```sql
+INSERT INTO BuildItems VALUES (201, 2, 'Mouse', 'Test mouse', 'Test', 9.99);
+```
+Result: `ERROR 1062: Duplicate entry '201' for key 'builditems.PRIMARY'`
+
+![Integrity test 1: duplicate ID refused](Evidence/SQL_Queries/Integrity_1_duplicate_ID.png)
+
+**2. Links must point to something real (FOREIGN KEY).** Every item must belong to a build that exists, like a locker can only be given to a student on the class register. I tried to add an item to build 9, but there are only builds 1 to 4.
+
+```sql
+INSERT INTO BuildItems VALUES (299, 9, 'Mouse', 'Test mouse', 'Test', 9.99);
+```
+Result: `ERROR 1452: Cannot add or update a child row: a foreign key constraint fails`
+
+![Integrity test 2: build that does not exist refused](Evidence/SQL_Queries/Integrity_2_missing_build.png)
+
+**3. Required fields can't be blank (NOT NULL).** Every item must have a name. I tried to add an item with no name.
+
+```sql
+INSERT INTO BuildItems VALUES (298, 2, 'Mouse', NULL, 'Test', 9.99);
+```
+Result: `ERROR 1048: Column 'ItemName' cannot be null`
+
+![Integrity test 3: blank item name refused](Evidence/SQL_Queries/Integrity_3_blank_name.png)
+
+**4. Costs must be numbers (DECIMAL).** Cost only accepts numbers, so SUM can add them up. I tried to type the cost as the word 'cheap'.
+
+```sql
+INSERT INTO BuildItems VALUES (297, 2, 'Mouse', 'Test mouse', 'Test', 'cheap');
+```
+Result: `ERROR 1366: Incorrect decimal value: 'cheap' for column 'Cost'`
+
+This one was refused because OneCompiler runs MySQL in strict mode. Without strict mode, MySQL might save it with a warning instead.
+
+![Integrity test 4: cost typed as a word refused](Evidence/SQL_Queries/Integrity_4_cost_as_word.png)
