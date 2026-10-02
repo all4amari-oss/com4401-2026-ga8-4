@@ -2,7 +2,7 @@
 
 **Mini Project 1: Northwest Architecture Studio** · Nah'Kajsha Reid
 
-Every query below was run on OneCompiler (MySQL) on 01/10/2026, on the team database built from the brief's ER diagram (page 7). Screenshots are in `Evidence/SQL_Queries`.
+Every query below was run on OneCompiler (MySQL) on 01/10/2026 (Queries 8, 10 and 11 and the Recommendations check were re-run on 02/10/2026, after the Project Manager build was added), on the team database built from the brief's ER diagram (page 7). Screenshots are in `Evidence/SQL_Queries`.
 
 ---
 
@@ -72,7 +72,7 @@ This query adds up the cost of every item in build 1 (Sorena's Administrative As
 ```sql
 SELECT BuildID, SUM(Cost) FROM BuildItems GROUP BY BuildID ORDER BY SUM(Cost) DESC;
 ```
-This query shows the total cost of each build, with the most expensive first. GROUP BY puts the items into a separate group for each build, like a separate shopping basket for each person, and SUM adds up each group. ORDER BY … DESC sorts them biggest first, so build 4 (£3,445.21) is at the top, then build 3 (£1,844.50), then build 1 (£808.81).
+This query shows the total cost of each build, with the most expensive first. GROUP BY puts the items into a separate group for each build, like a separate shopping basket for each person, and SUM adds up each group. ORDER BY … DESC sorts them biggest first, so build 4 (£3,445.21) is at the top, then build 3 (£1,844.50), then build 2 (£1,296.59), then build 1 (£808.81).
 
 ![Query 8 result](Evidence/SQL_Queries/Q08.png)
 
@@ -95,7 +95,7 @@ FROM BuildItems
 JOIN WorkstationBuilds ON BuildItems.BuildID = WorkstationBuilds.BuildID
 JOIN EmployeeRoles ON WorkstationBuilds.RoleID = EmployeeRoles.RoleID;
 ```
-This query shows every item with the build it is in and the role that build is for. It links three tables using two JOINs: BuildItems joins to WorkstationBuilds using BuildID, and WorkstationBuilds joins to EmployeeRoles using RoleID. It works like following a chain, from a lost item to its locker to the student's name. It showed 39 items across the three builds.
+This query shows every item with the build it is in and the role that build is for. It links three tables using two JOINs: BuildItems joins to WorkstationBuilds using BuildID, and WorkstationBuilds joins to EmployeeRoles using RoleID. It works like following a chain, from a lost item to its locker to the student's name. It showed 52 items across the four builds.
 
 ![Query 10 result, part 1](Evidence/SQL_Queries/Q10a.png)
 ![Query 10 result, part 2](Evidence/SQL_Queries/Q10b.png)
@@ -117,9 +117,17 @@ This query shows the total hardware cost for each job role. It uses the same two
 ## Checking the other tables
 
 ```sql
-SELECT * FROM Recommendations;
+SELECT RecommendationID, RoleID, Approved FROM Recommendations;
+SELECT RecommendationID, REPLACE(Justification, '. ', '.\n') AS Justification FROM Recommendations\G
+SELECT RecommendationID, REPLACE(Compromise, '. ', '.\n') AS Compromise FROM Recommendations\G
+SELECT RecommendationID, REPLACE(EthicalNotes, '. ', '.\n') AS EthicalNotes FROM Recommendations\G
 ```
-This query uses `*` to show every column in the Recommendations table, to check it works, because the brief asks for every table to be queried. It showed 1 row, the recommendation for RoleID 3 (Architect / CAD Designer), which Marcus wrote. The other team members' recommendations have not been added yet.
+This checks every column in the Recommendations table, because the brief asks for every table to be queried. It showed 2 rows: RoleID 2 (Project Manager), which I wrote, and RoleID 3 (Architect / CAD Designer), which Marcus wrote. The other team members' recommendations have not been added yet. The paragraphs were too long to fit on screen, so I checked one column at a time. REPLACE starts a new line after each full stop, and \G shows each row going down the page instead of across, so every word can be seen.
 
-![Recommendations, part 1](Evidence/SQL_Queries/Check_Recommendations_a.png)
-![Recommendations, part 2](Evidence/SQL_Queries/Check_Recommendations_b.png)
+![Recommendations: ID, RoleID and Approved](Evidence/SQL_Queries/Check_Recommendations_1.png)
+![Recommendations: Justification, part 1](Evidence/SQL_Queries/Check_Recommendations_2a.png)
+![Recommendations: Justification, part 2](Evidence/SQL_Queries/Check_Recommendations_2b.png)
+![Recommendations: Compromise, part 1](Evidence/SQL_Queries/Check_Recommendations_3a.png)
+![Recommendations: Compromise, part 2](Evidence/SQL_Queries/Check_Recommendations_3b.png)
+![Recommendations: EthicalNotes, part 1](Evidence/SQL_Queries/Check_Recommendations_4a.png)
+![Recommendations: EthicalNotes, part 2](Evidence/SQL_Queries/Check_Recommendations_4b.png)
