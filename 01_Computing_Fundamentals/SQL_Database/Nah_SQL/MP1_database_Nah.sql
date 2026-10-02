@@ -124,3 +124,30 @@ INSERT INTO BuildItems VALUES (410, 4, 'Keyboard', 'Logitech MK270 Wireless Comb
 INSERT INTO BuildItems VALUES (411, 4, 'Webcam/Headset', 'HyperX Cloud III', 'Over-ear headset with noise-cancelling microphone', 64.99);
 INSERT INTO BuildItems VALUES (412, 4, 'Webcam/Headset', 'Logitech C920e Webcam', '1080p webcam with microphone', 56.99);
 INSERT INTO BuildItems VALUES (413, 4, 'Network/Cables/Adapters', 'RS PRO Cat6 Ethernet Cable', 'Cat6 ethernet cable, 2m', 6.79);
+
+-- ============================================
+-- Added by Nah: Project Manager build (taken over from Mo) - ItemIDs 201+
+-- ============================================
+INSERT INTO BuildItems VALUES (201, 2, 'Case/Cooling', 'Montech X5M Micro ATX Mini Tower Black', 'Micro ATX mini tower, tempered glass side panel', 41.10);
+INSERT INTO BuildItems VALUES (202, 2, 'CPU', 'AMD Ryzen 5 8600G', '6 cores, AM5, built-in graphics and cooler', 149.99);
+INSERT INTO BuildItems VALUES (203, 2, 'Motherboard', 'GIGABYTE EAGLE B850M WIFI6E AM5 DDR5 Micro ATX', 'AM5, DDR5, Micro ATX, 1 HDMI + 2 DisplayPort, wired ethernet', 142.99);
+INSERT INTO BuildItems VALUES (204, 2, 'RAM', 'CORSAIR Vengeance 32GB (2x16GB) DDR5 6000 CL30', '32GB (2x16GB) DDR5-6000 CL30', 449.99);
+INSERT INTO BuildItems VALUES (205, 2, 'Storage', 'ADATA LEGEND 860 1TB', '1TB M.2 PCIe 4.0 NVMe SSD', 139.99);
+INSERT INTO BuildItems VALUES (206, 2, 'PSU', 'MSI MAG A650GL 650W', '650W, 80+ Gold, fully modular', 70.99);
+INSERT INTO BuildItems VALUES (207, 2, 'Monitor', 'ViewSonic VX2418C 24in', '24-inch 1080p VA curved, HDMI + DisplayPort', 116.92);
+INSERT INTO BuildItems VALUES (208, 2, 'Monitor', 'ViewSonic VX2418C 24in', 'Second identical screen for dual-monitor setup', 116.92);
+INSERT INTO BuildItems VALUES (209, 2, 'Keyboard', 'Logitech K120', 'UK layout, wired USB, full-size with number pad', 10.02);
+INSERT INTO BuildItems VALUES (210, 2, 'Mouse', 'Logitech M190', 'Wireless optical mouse, full-size', 11.99);
+INSERT INTO BuildItems VALUES (211, 2, 'Webcam/Headset', 'Logitech C270 Webcam', '720p USB webcam', 18.01);
+INSERT INTO BuildItems VALUES (212, 2, 'Webcam/Headset', 'Razer Kraken 7.1 Channel Closed Headset', 'Closed-back wired headset with microphone', 21.69);
+INSERT INTO BuildItems VALUES (213, 2, 'Network/Cables/Adapters', 'CSL 2m CAT6 Ethernet Cable', 'Cat6 gigabit ethernet patch cable, 2m, RJ45', 5.99);
+
+-- Recommendation for the Project Manager build (Nah)
+INSERT INTO Recommendations
+  (RecommendationID, RoleID, Justification, Compromise, Approved, EthicalNotes)
+VALUES
+  (2, 2,
+   'A Project Manager works with reports, dashboards and video calls at the same time, so I chose two 24-inch monitors so they can have them open side by side. The Ryzen 5 8600G has built-in graphics, so no graphics card was needed, which saved money for the monitors. It comes to £1,296.59 a machine, £3.41 under the £1,300 budget.',
+   'I chose 32GB of RAM because a Project Manager has more to do at once, like dashboards and reports, and needs more memory than a basic office PC. The RAM cost £449.99, about a third of the budget, so I kept the keyboard, mouse and webcam basic and cheap. I went for 1TB storage instead of 2TB, which saved about £100, and 1080p monitors instead of 1440p, which are good enough for reports and calls. The webcam is 720p, which is clear enough for calls. The budget ended up very tight, with only £3.41 left.',
+   TRUE,
+   'The power supply is 80+ Gold, so it wastes less electricity. I did not buy a graphics card because a Project Manager does not need one, which avoided over-buying and uses less power. Every part comes from known UK shops, with prices checked on 02/10/2026. The motherboard has 4 RAM slots and only 2 are used, so the PC can be upgraded later instead of replaced. The wired ethernet connection is harder to intercept than Wi-Fi, which is safer for sending client files and building plans.');
