@@ -140,4 +140,25 @@ GROUP BY r.RoleID, r.RoleName, r.StaffCount, r.BudgetPerUnit;
 <img width="2556" height="1390" alt="Extra" src="https://github.com/user-attachments/assets/000423b9-15a0-4816-bc5d-86bbcada3d64" />
 This query calculates the cost of one workstation for each role and multiplies it by the number of staff to calculate the total role cost. It also calculates the total budget available for each role, allowing the costs to be compared with the budget.
 
+---
 
+## Checking the other tables
+
+The brief requires every table in the databse to be queried at least once. The main 11 queries already use EmployeeRoles and BuildItems, so I also checked the WorkstationBuilds and Recommendations tables separately.
+
+### WorkstationBuilds
+
+```sql
+SELECT * FROM WorkstationBuilds;
+```
+<img width="2558" height="1390" alt="Check_WorkstationBuilds" src="https://github.com/user-attachments/assets/d4d9a42e-9a09-4155-9784-9c5bc32f61c9" />
+This query displays all the workstation builds stored in the database. It shows the BuildID, RoleID, BuildName and Source for each build.
+
+### Recommendations 
+
+```sql
+SELECT RecommendationID, RoleID, Approved
+FROM Recommendations;
+```
+<img width="2559" height="1390" alt="Check_Recommendations" src="https://github.com/user-attachments/assets/cff2eb27-bcb0-4ba9-bc37-9631899fbeaa" />
+This query checks the recommendations stored for each role. It shows the recommendation ID, the role it belongs to and whether the recommendation has been approved.
