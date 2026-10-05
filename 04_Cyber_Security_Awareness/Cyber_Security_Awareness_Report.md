@@ -3,7 +3,7 @@
 **Module:** COM4401 Foundations of Computer Science and Academic Skills
 **University:** University of Greater Manchester
 **Team:** The Avengers
-**Group members:** Marcus Weeks, Charlie, Sorena, Nah'Kajsha Reid
+**Group members:** Marcus Weeks, Charlie Broughton, Sorena Golbarg Lisar, Nah'Kajsha Reid
 **Date:** October 2026
 
 ---
