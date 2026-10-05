@@ -198,6 +198,7 @@ The hardware categories use the same naming format throughout the database, such
 ### Team numbering
 
 Each workstation build has its own range of `ItemID` numbers. The Administrative Assistant build uses IDs beginning with 101, the Project Manager build uses 201, the Architect/CAD Designer build uses 301, and the 3D Visualisation Specialist build uses 401. This makes it easier to identify which build an item belongs to and helps prevent different team members from accidentally using the same `ItemID`.
+
 ---
 
 ## Checklist
