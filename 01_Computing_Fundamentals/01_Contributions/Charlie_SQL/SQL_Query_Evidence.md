@@ -122,3 +122,23 @@ ORDER BY TotalSpend DESC;
 <img width="2559" height="1379" alt="Query11" src="https://github.com/user-attachments/assets/95af4944-0d66-465a-bd0e-ed7021b94617" />
 This query joins the roles, workstation builds and hardware items together. SUM calculates the total hardware spending and GROUP BY produces a separate total for each role.
 
+## Extra
+
+### Extra: Role totals against the budget
+```sql
+SELECT r.RoleName,
+       r.StaffCount,
+       SUM(i.Cost) AS CostPerPC,
+       SUM(i.Cost) * r.StaffCount AS RoleTotal,
+       r.BudgetPerUnit * r.StaffCount AS RoleBudget
+FROM BuildItems i
+JOIN WorkstationBuilds b
+ON i.BuildID = b.BuildID
+JOIN EmployeeRoles r
+ON b.RoleID = r.RoleID
+GROUP BY r.RoleID, r.RoleName, r.StaffCount, r.BudgetPerUnit;
+```
+<img width="2556" height="1390" alt="Extra" src="https://github.com/user-attachments/assets/000423b9-15a0-4816-bc5d-86bbcada3d64" />
+This query calculates the cost of one workstation for each role and multiplies it by the number of staff to calculate the total role cost. It also calculates the total budget available for each role, allowing the costs to be compared with the budget.
+
+
