@@ -3,23 +3,43 @@
 **Module:** COM4401 Foundations of Computer Science and Academic Skills
 **University:** University of Greater Manchester
 **Team:** The Avengers
-**Group members:** Marcus Weeks, Charlie, Sorana, Nah, Mo
-**Date:** *[add on submission]*
+**Group members:** Marcus Weeks, Charlie, Sorena, Nah'Kajsha Reid
+**Date:** October 2026
 
 ---
 
 ## Contents
 
-*Generated last, once every section is in and the numbering is final (brief page 22).*
+*Draft: sections 2 and 4 will add their sub-sections when they are in. Page numbers are added when the report is turned into a PDF.*
 
-- Introduction
-- 1. Password Hygiene (Marcus)
-- 2. Two-Factor Authentication (Charlie)
-- 3. Phishing and Social Engineering (Sorena)
-- 4. Safe Use of Devices (Nah)
-- 5. Safe Use of Public Wi-Fi (Mo)
-- Conclusion
-- Reference List
+- [Introduction](#introduction)
+- [1. Password Hygiene](#1-password-hygiene)
+  - [1.1 What makes a password strong](#11-what-makes-a-password-strong)
+  - [1.2 Password managers](#12-password-managers)
+  - [1.3 Credential reuse and credential stuffing](#13-credential-reuse-and-credential-stuffing)
+  - [1.4 Where the numbers come from](#14-where-the-numbers-come-from)
+  - [1.5 Password hygiene at a glance](#15-password-hygiene-at-a-glance)
+- [2. Two-Factor Authentication](#2-two-factor-authentication)
+- [3. Phishing and Social Engineering](#3-phishing-and-social-engineering)
+  - [3.1 Phishing and its Different Forms](#31-phishing-and-its-different-forms)
+    - [3.1.1 Phishing](#311-phishing)
+    - [3.1.2 Spear Phishing](#312-spear-phishing)
+    - [3.1.3 Smishing](#313-smishing)
+    - [3.1.4 Vishing](#314-vishing)
+    - [3.1.5 Business Email Compromise (BEC)](#315-business-email-compromise-bec)
+  - [3.2 Psychological Techniques](#32-psychological-techniques)
+    - [3.2.1 Authority](#321-authority)
+    - [3.2.2 Urgency](#322-urgency)
+    - [3.2.3 Fear](#323-fear)
+    - [3.2.4 Scarcity / Fear of Missing Out](#324-scarcity--fear-of-missing-out)
+  - [3.3 Indicators of Phishing](#33-indicators-of-phishing)
+  - [3.4 What Should Someone Do if They Suspect or Click Phishing?](#34-what-should-someone-do-if-they-suspect-or-click-phishing)
+    - [3.4.1 If a Message Looks Suspicious](#341-if-a-message-looks-suspicious)
+    - [3.4.2 If the User Has Already Clicked or Shared Information](#342-if-the-user-has-already-clicked-or-shared-information)
+    - [3.4.3 Organisational Response](#343-organisational-response)
+- [4. Safe Use of Devices](#4-safe-use-of-devices)
+- [Conclusion](#conclusion)
+- [Reference List](#reference-list)
 
 ---
 
@@ -32,6 +52,10 @@ Most of us now bank, shop, work and keep in touch online, and every one of those
 Verizon's 2025 Data Breach Investigations Report found that human involvement in breaches remains high (Verizon, 2025). An estimated 43% to 51% of users reuse the same password across different sites (Das et al., 2014), and in 2025 Verizon found that only 49% of a typical person's passwords were different from each other (Langlois, 2025). In 2023 an attacker got into 23andMe accounts using login details that people had reused after earlier, unrelated breaches (Information Commissioner's Office, 2025).
 
 This report relies mainly on official bodies. The National Cyber Security Centre (NCSC) is part of GCHQ and helps businesses, the public sector and individuals protect the online services and devices they depend on. Its stated mission is to make the UK the safest place to live and work online (National Cyber Security Centre, N.D.c).
+
+*Sorena's part:*
+
+Phishing is a form of social engineering in which attackers impersonate trusted individuals or organisations to deceive victims into revealing sensitive information, transferring money or carrying out unsafe actions (National Institute of Standards and Technology, n.d.). Phishing can take several forms and often relies on psychological manipulation to increase the likelihood that a victim will respond.
 
 ---
 
@@ -228,17 +252,15 @@ Employee awareness is important, but it should not be the organisation's only de
 
 ---
 
-## 5. Safe Use of Public Wi-Fi
-
-*[Mo to add]*
-
----
-
 ## Conclusion
 
 *Everyone contributes to the conclusion (brief page 22). Marcus's part is below.*
 
 Use three random words, or at least 15 characters, for each account (NCSC, N.D.a; NIST, 2025). Don't reuse passwords, because attackers use software to try leaked passwords on many other sites (Langlois, 2025). Let a password manager remember your passwords, and turn on 2-step verification first, starting with your email account (NCSC, N.D.b). If a password is leaked, change it straight away. Otherwise there is no need to change passwords on a schedule (NIST, 2025).
+
+*Sorena's part:*
+
+In conclusion, phishing remains a significant cyber-security threat because attackers combine deceptive messages with psychological techniques such as authority, urgency, fear and scarcity. Recognising warning signs, responding quickly to suspicious activity and using multiple layers of organisational security can reduce the risk and impact of successful phishing attacks (National Cyber Security Centre, 2018; NCSC, 2021b).
 
 ---
 
