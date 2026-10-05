@@ -162,3 +162,36 @@ FROM Recommendations;
 ```
 <img width="2559" height="1390" alt="Check_Recommendations" src="https://github.com/user-attachments/assets/cff2eb27-bcb0-4ba9-bc37-9631899fbeaa" />
 This query checks the recommendations stored for each role. It shows the recommendation ID, the role it belongs to and whether the recommendation has been approved.
+
+---
+
+## Data Integrity
+
+### Data Integrity Test 1: Unique IDs
+
+Each table uses a `PRIMARY KEY` to make sure every record has a unique ID. I tested this by trying to add another hardware item with ItemID 401, which already exists in the BuildItems table.
+<img width="2557" height="1384" alt="Test_1" src="https://github.com/user-attachments/assets/586bad6e-250d-49b6-8957-804471efb4c7" />
+The database rejected the duplicate and produced an error. This shows that the PRIMARY KEY prevents two hardware items from having the same ItemID.
+
+### Data Integrity Test 2: Valid Relationships
+
+The `BuildItems` table uses a `FOREIGN KEY` on `BuildID` to make sure every hardware item belongs to a build that exists. I tested this by trying to add an item with BuildID 9, which does not exist in the WorkstationBuilds table.
+<img width="2559" height="1389" alt="Test_2" src="https://github.com/user-attachments/assets/eae24675-9fbd-4bd8-86cc-4add668c90d7" />
+The database rejected the entry with a foreign key constraint error. This shows that the foreign key prevents hardware items from being linked to a non-existent build.
+
+### Data Integrity Test 3: Required fields cannot be blank
+
+The `ItemName` column is set to `NOT NULL`, which means every item in the database must have a name. I tested this by trying to add an item with a blank `ItemName`. 
+<img width="2559" height="1386" alt="Test_3" src="https://github.com/user-attachments/assets/1636c8c6-fb60-4a37-9d18-671ad348e60d" />
+The database rejected it and returned an error saying that `ItemName` cannot be null. This shows that the database prevents required information from being left blank.
+
+### Data Integrity Test 4: Costs must be numbers 
+
+The `Cost` column is stored as `DECIMAL(8,2)`, so it is designed to contain numerical costs with two decimal places. I tested this by trying to enter the word `'cheap'` instead of a number.
+<img width="2559" height="1396" alt="Test_4" src="https://github.com/user-attachments/assets/55fa5ac5-acea-456c-9cb5-3e5f36d6c197" />
+The database rejected the value and returned an error showing that it was an incorrect decimal value. This shows that the database prevents non-numeric values from being stored as costs.
+
+
+
+
+
