@@ -191,7 +191,36 @@ The `Cost` column is stored as `DECIMAL(8,2)`, so it is designed to contain nume
 <img width="2559" height="1396" alt="Test_4" src="https://github.com/user-attachments/assets/55fa5ac5-acea-456c-9cb5-3e5f36d6c197" />
 The database rejected the value and returned an error showing that it was an incorrect decimal value. This shows that the database prevents non-numeric values from being stored as costs.
 
+### Consistent category names
 
+The hardware categories use the same naming format throughout the database, such as `CPU`, `Motherboard`, `RAM`, `Storage`, `GPU`, `PSU`, `Case/Cooling`, `Monitor`, `Keyboard`, `Mouse`, `Webcam/Headset` and `Network/Cables/Adapters`. Keeping the category names consistent is important because different spellings or names could make `COUNT`, `SUM` and `GROUP BY` queries produce inaccurate results. This rule relies on the team using the agreed category names when entering data.
 
+### Team numbering
+
+Each workstation build has its own range of `ItemID` numbers. The Administrative Assistant build uses IDs beginning with 101, the Project Manager build uses 201, the Architect/CAD Designer build uses 301, and the 3D Visualisation Specialist build uses 401. This makes it easier to identify which build an item belongs to and helps prevent different team members from accidentally using the same `ItemID`.
+---
+
+## Checklist
+
+- [x] All 4 roles are included in the `EmployeeRoles` table.
+- [x] All 4 workstation builds are included in the `WorkstationBuilds` table.
+- [x] `BuildItems` contains the hardware items for the workstation builds.
+- [x] `Recommendations` contains a recommendation for each role.
+- [x] Every table has been queried at least once.
+- [x] Used `SELECT` to retrieve data from the database.
+- [x] Used `WHERE` to filter results.
+- [x] Used `ORDER BY` to sort results.
+- [x] Used `COUNT` to count items in a build.
+- [x] Used `SUM` to calculate hardware costs.
+- [x] Used `GROUP BY` to calculate totals for each build or role.
+- [x] Used `JOIN` to connect information from multiple tables.
+- [x] Completed all 11 queries required by the brief.
+- [x] Added an explanation underneath each query.
+- [x] Added screenshots showing the query results.
+- [x] Completed the extra role totals and budget comparison query.
+- [x] Completed the data integrity section.
+- [x] Tested duplicate IDs, invalid foreign keys, blank required fields and invalid cost values.
+- [x] Explained consistent category names and team numbering.
+- [x] Added screenshots as evidence for the data integrity tests.
 
 
