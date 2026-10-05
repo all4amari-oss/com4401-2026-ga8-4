@@ -10,7 +10,7 @@
 
 ## Contents
 
-*Draft: sections 2 and 4 will add their sub-sections when they are in. Page numbers are added when the report is turned into a PDF.*
+*Draft: section 2 will add its sub-sections when it is in. Page numbers are added when the report is turned into a PDF.*
 
 - [Introduction](#introduction)
 - [1. Password Hygiene](#1-password-hygiene)
@@ -38,6 +38,10 @@
     - [3.4.2 If the User Has Already Clicked or Shared Information](#342-if-the-user-has-already-clicked-or-shared-information)
     - [3.4.3 Organisational Response](#343-organisational-response)
 - [4. Safe Use of Devices](#4-safe-use-of-devices)
+  - [4.1 Keeping Software Updated: Vulnerabilities, Patches, and Exploits](#41-keeping-software-updated-vulnerabilities-patches-and-exploits)
+  - [4.2 Device Encryption, Screen Locks, and Security Software](#42-device-encryption-screen-locks-and-security-software)
+  - [4.3 Risks of Installing Software from Unofficial Sources](#43-risks-of-installing-software-from-unofficial-sources)
+  - [4.4 Risks of Unknown USB Devices and Public Charging Points](#44-risks-of-unknown-usb-devices-and-public-charging-points)
 - [Conclusion](#conclusion)
 - [Reference List](#reference-list)
 
@@ -119,7 +123,7 @@ The 22% figure at the start of this section comes from Verizon's 2025 Data Breac
 
 ## 3. Phishing and Social Engineering
 
-*Section owner: Sorena Golbarg (copied from Sorena's Phishing_Section3.pdf, uploaded 30/09/2026)*
+*Section owner: Sorena Golbarg Lisar (copied from Sorena's Phishing_Section3.pdf, uploaded 30/09/2026)*
 
 ### 3.1 Phishing and its Different Forms
 
@@ -248,7 +252,29 @@ Employee awareness is important, but it should not be the organisation's only de
 
 ## 4. Safe Use of Devices
 
-*[Nah to add]*
+*Section owner: Nah'Kajsha Reid (copied from Nah's "Safe Use of Devices.docx", uploaded 03/10/2026)*
+
+Cybersecurity depends heavily on how safely people configure and use everyday devices. Personal, financial, academic, and business information is stored in laptops, smartphones, tablets, and removable media. Using a weak device creates a potential vulnerability that could expose your data and accounts. There are several overlapping controls that could be needed to offer effective protection as opposed to a single security product. Software updating, encrypting the stored data, locking down the screens, trusted security software, and treating unknown USB connections carefully will lower the chances of an attacker succeeding. The above actions are particularly relevant since attackers usually seek to exploit vulnerabilities that they are aware of or convince a user to install malicious software on their own. The goal of using safe devices is to lessen the probability of compromise as well as the harm in case one of the defensive strategies fails.
+
+### 4.1 Keeping Software Updated: Vulnerabilities, Patches, and Exploits
+
+Software updates are important because they fix known vulnerabilities, which are weaknesses that can be exploited to violate confidentiality, integrity, or availability. An exploit is a piece of code, software, or a technique used to take advantage of a weakness in a system, whereas a patch is a change provided by a vendor to address the weakness. According to NIST, patch management can be characterised as preventive maintenance that minimises the risk of compromise, a data breach, and disruption (Souppaya and Scarfone, 2022). Likewise, the NCSC describes patches as closing established security vulnerabilities that attackers can exploit (NCSC, 2021d). Publicising a vulnerability also provides attackers with time to study the technicalities, automate the scanning process, and exploit devices that have not been updated before (NCSC, 2021d). This is why users should always keep their system updated. One notable case is the Log4Shell, CVE-2021-44228, of Apache Log4j. The Log4Shell flaw let an attacker run their own code on a system by sending crafted messages the system logs (NIST, 2021). Apache released Log4j 2.15.0 on 6 December 2021 and later strengthened protections in 2.16.0 on 13 December (Apache Software Foundation, 2021). As of 23 December 2021, agencies such as CISA have reported active exploitation and recommended organisations to upgrade affected systems promptly (CISA et al., 2021). This example shows that systems remain vulnerable until they are fixed, so any delay would cause weakness in them.
+
+### 4.2 Device Encryption, Screen Locks, and Security Software
+
+Encryption, screen locks, and security software protect various parts of the device. Encryption scrambles data so that it cannot be read without the right key. According to NIST, encryption separates the data; therefore, only authorised key holders can access it, limiting exposure in the event of a lost or stolen device (Howell et al., 2023). CISA also advises data encryption of computers, mobile gadgets, hard disks, and other pertinent files to prevent unauthorised access to data (CISA, n.d.). A screen lock stops other people from using the device, and it can use a password, a PIN or a fingerprint. Automatic lockouts lock the device after it has not been used for a while, so an unattended device cannot be used by someone else. Encryption and screen locking work hand in hand: the lock prevents access on the spot, and the encryption protects the stored data if someone tries to get around the normal login. Devices should also use reputable antivirus or endpoint security software, which can identify, prevent, or quarantine malware. According to the NCSC, modern security tools interact with operating system controls and should be updated to ensure new malware signatures and safeguards stay viable (NCSC, 2021e).
+
+### 4.3 Risks of Installing Software from Unofficial Sources
+
+Installing software from unofficial sources is risky because the package may have been modified, repackaged, or distributed without a meaningful security review. NIST suggests the vetting of apps since mobile applications can be vulnerable, have excess permissions, or malicious behaviour that compromises sensitive data (Ogata et al., 2019). The official stores do not promise that all applications are safe. However, they tend to offer better reviews, signing, upgrading, and uninstallation systems, as compared to other websites that are unknown. According to ENISA, phishing and tricking people by email are among the main ways cyber attacks begin (ENISA, 2024). Users are hence advised to ensure that the source of their downloads is verified, to avoid software that is either pirated or cracked, remove app permissions they do not need, and check unsolicited installations.
+
+### 4.4 Risks of Unknown USB Devices and Public Charging Points
+
+Unknown USB devices are harmful, as USBs might contain data and instructions, not just files or electricity. The NCSC cautions that removable media may contain malicious code and that a device like a USB Rubber Ducky can act as a keyboard and perform attacker-selected code (NCSC, 2021f). The existence of public charging points poses a similar risk since most USB connections can charge as well as provide data communication. Peer-reviewed research presented at the 2025 USENIX Security Symposium showed that malicious chargers bypassed existing confirmation protections and accessed sensitive files in tested Android and iOS devices of eight vendors (Draschbacher et al., 2025). This shows that a charger that looks normal can still be used to attack the device. Because users cannot see the inside of an unknown charger, being a public charger does not make it safe. To reduce this risk, users should: use a personal wall charger or a trusted power bank, avoid untrusted USB devices, turn off data transfer when not needed, and reject untrusted connection requests.
+
+Safe device use, therefore, depends on layered, routine behaviour. Patches eliminate identified vulnerabilities prior to exploit success, encryption and lockouts minimise unauthorised access, security applications aid in the detection of malicious activity, trusted software vendors reduce exposure to altered applications, and correct USB and charging practices limit physical connection attacks. None of these controls are ideal on their own, yet in combination, they drastically minimise the risk that can be avoided and increase the difficulty of compromising a device.
+
+****
 
 ---
 
@@ -268,13 +294,25 @@ In conclusion, phishing remains a significant cyber-security threat because atta
 
 *UGM Harvard. One alphabetised list for the whole team. Add your sources in alphabetical order.*
 
+Apache Software Foundation. (2021) *Apache Log4j 2 release notes*. [Online] Available from: https://logging.apache.org/log4j/2.x/release-notes.html. [Accessed 26 September 2026].
+
+Cybersecurity and Infrastructure Security Agency [CISA], Federal Bureau of Investigation [FBI], National Security Agency [NSA], Australian Cyber Security Centre [ACSC], Canadian Centre for Cyber Security [CCCS], Computer Emergency Response Team New Zealand [CERT NZ], New Zealand National Cyber Security Centre [NZ NCSC] and United Kingdom National Cyber Security Centre [NCSC-UK]. (2021) *Mitigating Log4Shell and other Log4j-related vulnerabilities*. [Online] Available from: https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a. [Accessed 26 September 2026].
+
+Cybersecurity and Infrastructure Security Agency [CISA]. (n.d.) *How to protect the data that is stored on your devices*. [Online] Available from: https://www.cisa.gov/resources-tools/training/how-protect-data-stored-your-devices. [Accessed 26 September 2026].
+
 Das, A., Bonneau, J., Caesar, M., Borisov, N. and Wang, X. (2014) The tangled web of password reuse. In: *Network and Distributed System Security Symposium (NDSS 2014)*. San Diego, 23-26 February 2014. [Online] Available from: https://www.ndss-symposium.org/ndss2014/ndss-2014-programme/tangled-web-password-reuse/. [Accessed 25 September 2026].
 
 Department for Science, Innovation and Technology. (2025) *Cyber security breaches survey 2025*. [Online] Available from: https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2025/cyber-security-breaches-survey-2025. [Accessed 29 September 2026].
 
+Draschbacher, F., Maar, L., Oberhuber, M., and Mangard, S. (2025) ChoiceJacking: compromising mobile devices through malicious chargers like a decade ago. In: *34th USENIX Security Symposium*. [Online] pp. 4363–4379. Available from: https://www.usenix.org/conference/usenixsecurity25/presentation/draschbacher. [Accessed 26 September 2026].
+
+European Union Agency for Cybersecurity [ENISA]. (2024) *Promoting security in the digital world during the European Cybersecurity Month*. [Online] Available from: https://www.enisa.europa.eu/news/promoting-security-in-the-digital-world-during-the-european-cybersecurity-month. [Accessed 26 September 2026].
+
 Federal Bureau of Investigation. (n.d.a) *Business email compromise*. [Online] Available from: https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams/business-email-compromise. [Accessed 30 September 2026].
 
 Federal Bureau of Investigation. (n.d.b) *Spoofing and phishing*. [Online] Available from: https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams/spoofing-and-phishing. [Accessed 30 September 2026].
+
+Howell, G., Franklin, J., Sritapan, V., Souppaya, M., and Scarfone, K. (2023) *Guidelines for managing the security of mobile devices in the enterprise*. NIST Special Publication 800-124 Revision 2. [Online] Available from: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-124r2.pdf. [Accessed 26 September 2026].
 
 Information Commissioner's Office. (2025) *23andMe fined £2.31 million for failing to protect UK users' genetic data*. [Online] Available from: https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2025/06/23andme-fined-for-failing-to-protect-uk-users-genetic-data/. [Accessed 25 September 2026].
 
@@ -288,6 +326,12 @@ National Cyber Security Centre. (2021b) *Phishing scams: how to spot and report 
 
 National Cyber Security Centre. (2021c) *Phishing scams: if you've shared sensitive information*. [Online] Available from: https://www.ncsc.gov.uk/collection/phishing-scams/what-to-do. [Accessed 30 September 2026].
 
+National Cyber Security Centre. (2021d) *Keeping devices and software up to date*. [Online] Available from: https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices/keeping-devices-and-software-up-to-date. [Accessed 26 September 2026].
+
+National Cyber Security Centre. (2021e) *Antivirus and other security software*. [Online] Available from: https://www.ncsc.gov.uk/collection/device-security-guidance/policies-and-settings/antivirus-and-other-security-software. [Accessed 26 September 2026].
+
+National Cyber Security Centre. (2021f) *Using peripherals securely*. [Online] Available from: https://www.ncsc.gov.uk/collection/device-security-guidance/policies-and-settings/using-peripherals-securely. [Accessed 26 September 2026].
+
 National Cyber Security Centre. (2026) *Small organisations guide to cyber security: spotting cyber attacks*. [Online] Available from: https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security/spotting-cyber-attacks. [Accessed 30 September 2026].
 
 National Cyber Security Centre. (N.D.a) *Three random words*. [Online] Available from: https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words. [Accessed 25 September 2026].
@@ -296,15 +340,21 @@ National Cyber Security Centre. (N.D.b) *Managing your passwords*. [Online] Avai
 
 National Cyber Security Centre. (N.D.c) *What we do at the NCSC*. [Online] Available from: https://www.ncsc.gov.uk/section/about-ncsc/what-we-do. [Accessed 29 September 2026].
 
+National Institute of Standards and Technology. (2021) *CVE-2021-44228 detail: Apache Log4j2 JNDI features do not protect against attacker-controlled LDAP and other JNDI-related endpoints*. National Vulnerability Database. [Online] Available from: https://nvd.nist.gov/vuln/detail/CVE-2021-44228. [Accessed 26 September 2026].
+
 National Institute of Standards and Technology. (2025) *Digital identity guidelines: authentication and authenticator management (NIST Special Publication 800-63B-4)*. [Online] Gaithersburg, MD: NIST. Available from: https://pages.nist.gov/800-63-4/sp800-63b.html. [Accessed 25 September 2026].
 
 National Institute of Standards and Technology. (n.d.) *Phishing*. [Online] Available from: https://csrc.nist.gov/glossary/term/phishing. [Accessed 30 September 2026].
 
 Oesch, S. and Ruoti, S. (2020) That was then, this is now: a security evaluation of password generation, storage, and autofill in browser-based password managers. In: *Proceedings of the 29th USENIX Security Symposium*. August 2020. [Online] Berkeley, CA: USENIX Association, pp. 2165-2182. Available from: https://www.usenix.org/conference/usenixsecurity20/presentation/oesch. [Accessed 25 September 2026].
 
+Ogata, M., Franklin, J., Voas, J., Sritapan, V., and Quirolgico, S. (2019) *Vetting the security of mobile applications*. NIST Special Publication 800-163 Revision 1. [Online] Available from: https://www.nist.gov/publications/vetting-security-mobile-applications-0. [Accessed 26 September 2026].
+
 Pearman, S., Zhang, S.A., Bauer, L., Christin, N. and Cranor, L.F. (2019) Why people (don't) use password managers effectively. In: *Fifteenth Symposium on Usable Privacy and Security (SOUPS 2019)*. Santa Clara, CA, August 2019. [Online] Berkeley, CA: USENIX Association, pp. 319-338. Available from: https://www.usenix.org/conference/soups2019/presentation/pearman. [Accessed 25 September 2026].
 
 Shay, R., Komanduri, S., Durity, A.L., Huh, P.S., Mazurek, M.L., Segreti, S.M., Ur, B., Bauer, L., Christin, N. and Cranor, L.F. (2016) Designing password policies for strength and usability. *ACM Transactions on Information and System Security*, [Online] 18(4), pp. 1-34. Available from: https://doi.org/10.1145/2891411. [Accessed 25 September 2026].
+
+Souppaya, M. and Scarfone, K. (2022) *Guide to enterprise patch management planning: Preventive maintenance for technology*. NIST Special Publication 800-40 Revision 4. [Online] Available from: https://csrc.nist.gov/pubs/sp/800/40/r4/final. [Accessed 26 September 2026].
 
 Stylianou, I., Bountakas, P., Zarras, A. and Xenakis, C. (2025) Suspicious minds: psychological techniques correlated with online phishing attacks. *Computers in Human Behavior Reports*, [Online] 19, article 100694. Available from: https://doi.org/10.1016/j.chbr.2025.100694. [Accessed 30 September 2026].
 
