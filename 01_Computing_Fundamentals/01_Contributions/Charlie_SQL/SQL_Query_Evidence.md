@@ -122,9 +122,8 @@ ORDER BY TotalSpend DESC;
 <img width="2559" height="1379" alt="Query11" src="https://github.com/user-attachments/assets/95af4944-0d66-465a-bd0e-ed7021b94617" />
 This query joins the roles, workstation builds and hardware items together. SUM calculates the total hardware spending and GROUP BY produces a separate total for each role.
 
-## Extra
+## Extra: Role totals against the budget
 
-### Extra: Role totals against the budget
 ```sql
 SELECT r.RoleName,
        r.StaffCount,
