@@ -61,6 +61,10 @@ This report relies mainly on official bodies. The National Cyber Security Centre
 
 Phishing is a form of social engineering in which attackers impersonate trusted individuals or organisations to deceive victims into revealing sensitive information, transferring money or carrying out unsafe actions (National Institute of Standards and Technology, n.d.). Phishing can take several forms and often relies on psychological manipulation to increase the likelihood that a victim will respond.
 
+*Nah's part:*
+
+Devices such as laptops, mobile phones and tablets hold our personal, financial and work information, so if a device is not safe, it can be hacked and that information can be stolen. To keep a device safe, using a password is not enough on its own; instead, we need several layers of protection that work together. Section 4 of this report explains how regular software updates, screen locks and encryption, downloading apps only from official stores, and taking care with unknown USB devices and public chargers help keep a device safe. When a weakness in software becomes public, attackers can use it to attack devices that have not been updated (NCSC, 2021d).
+
 ---
 
 ## 1. Password Hygiene
@@ -287,6 +291,10 @@ Use three random words, or at least 15 characters, for each account (NCSC, N.D.a
 *Sorena's part:*
 
 In conclusion, phishing remains a significant cyber-security threat because attackers combine deceptive messages with psychological techniques such as authority, urgency, fear and scarcity. Recognising warning signs, responding quickly to suspicious activity and using multiple layers of organisational security can reduce the risk and impact of successful phishing attacks (National Cyber Security Centre, 2018; NCSC, 2021b).
+
+*Nah's part:*
+
+In conclusion, keeping a device safe is not about one step; it means using several protections together, such as updates, screen locks, encryption and safe downloads, and keeping them up to date. If one protection fails, the others can still stop an attacker or limit the harm. A simple step everyone can take is to keep antivirus software turned on and updated, because this lets it recognise new malware (NCSC, 2021e).
 
 ---
 
