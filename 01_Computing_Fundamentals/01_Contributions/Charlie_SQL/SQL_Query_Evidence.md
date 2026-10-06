@@ -93,7 +93,8 @@ FROM WorkstationBuilds b
 JOIN EmployeeRoles r
 ON b.RoleID = r.RoleID;
 ```
-<img width="2559" height="1388" alt="Query9" src="https://github.com/user-attachments/assets/04e34b34-8a7f-464d-aa0c-844fbc746501" />
+
+<img width="2540" height="1391" alt="Query9" src="https://github.com/user-attachments/assets/0fffe7f5-c43e-4517-af6e-72a7ddc9c616" />
 This query uses a JOIN to connect the WorkstationBuilds and EmployeeRoles tables. This allows the build name and the role it belongs to to be displayed together.
 
 ### Query 10: Items with their build and role
@@ -119,7 +120,7 @@ ON b.RoleID = r.RoleID
 GROUP BY r.RoleName
 ORDER BY TotalSpend DESC;
 ```
-<img width="2559" height="1379" alt="Query11" src="https://github.com/user-attachments/assets/95af4944-0d66-465a-bd0e-ed7021b94617" />
+<img width="2559" height="1389" alt="Query11" src="https://github.com/user-attachments/assets/4c83bbeb-5042-43a7-89d4-da047ccc7be4" />
 This query joins the roles, workstation builds and hardware items together. SUM calculates the total hardware spending and GROUP BY produces a separate total for each role.
 
 ## Extra: Role totals against the budget
