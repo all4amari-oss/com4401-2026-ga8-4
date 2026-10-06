@@ -13,7 +13,7 @@ Every query below was run on OneCompiler (MySQL) using the shared team database.
 ```sql
 SELECT * FROM EmployeeRoles;
 ```
-<img width="2559" height="1389" alt="Query1" src="https://github.com/user-attachments/assets/f88d9f2d-68ae-4a7d-a35f-49e10fa20142" />
+<img width="2559" height="1382" alt="Query1" src="https://github.com/user-attachments/assets/ed52ce10-c874-4459-9d4a-fedac28ca3b6" />
 This query displays all the roles stored in the EmployeeRoles table. The * means that every column is selected.
 
 ### Query 2: Just the names and budgets
@@ -25,7 +25,7 @@ FROM EmployeeRoles;
 <img width="2553" height="1391" alt="Query2" src="https://github.com/user-attachments/assets/3261d164-36ba-4fe7-b354-9babcd1072b1" />
 This query displays only the role name and budget for each role instead of showing every column in the table.
 
-## Query 3: The higher-budget roles 
+### Query 3: The higher-budget roles 
 
 ```sql
 SELECT RoleName, BudgetPerUnit
@@ -177,7 +177,7 @@ The database rejected the duplicate and produced an error. This shows that the P
 ### Data Integrity Test 2: Valid Relationships
 
 The `BuildItems` table uses a `FOREIGN KEY` on `BuildID` to make sure every hardware item belongs to a build that exists. I tested this by trying to add an item with BuildID 9, which does not exist in the WorkstationBuilds table.
-<img width="2559" height="1389" alt="Test_2" src="https://github.com/user-attachments/assets/eae24675-9fbd-4bd8-86cc-4add668c90d7" />
+<img width="2559" height="1389" alt="Test_2" src="https://github.com/user-attachments/assets/b8d30ea5-360f-4ba3-b198-0863003e8bdb" />
 The database rejected the entry with a foreign key constraint error. This shows that the foreign key prevents hardware items from being linked to a non-existent build.
 
 ### Data Integrity Test 3: Required fields cannot be blank
