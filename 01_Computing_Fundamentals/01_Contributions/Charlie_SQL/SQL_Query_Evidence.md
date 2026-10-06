@@ -145,7 +145,7 @@ This query calculates the cost of one workstation for each role and multiplies i
 
 ## Checking the other tables
 
-The brief requires every table in the databse to be queried at least once. The main 11 queries already use EmployeeRoles and BuildItems, so I also checked the WorkstationBuilds and Recommendations tables separately.
+The brief requires every table in the databse to be queried at least once. The 11 required queries use EmployeeRoles, BuildItems and WorkstationBuilds. The Recommendations table is not used by those 11 queries, so it is checked separately below to make sure every table in the database has been queried at least once.
 
 ### WorkstationBuilds
 
