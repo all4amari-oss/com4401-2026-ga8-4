@@ -10,7 +10,7 @@
 
 ## Contents
 
-*Draft: section 2 will add its sub-sections when it is in. Page numbers are added when the report is turned into a PDF.*
+*Draft: page numbers are added when the report is turned into a PDF.*
 
 - [Introduction](#introduction)
 - [1. Password Hygiene](#1-password-hygiene)
@@ -20,6 +20,10 @@
   - [1.4 Where the numbers come from](#14-where-the-numbers-come-from)
   - [1.5 Password hygiene at a glance](#15-password-hygiene-at-a-glance)
 - [2. Two-Factor Authentication](#2-two-factor-authentication)
+  - [2.1 Authentication factors](#21-authentication-factors)
+  - [2.2 Comparing SMS codes, authenticator apps and hardware security keys](#22-comparing-sms-codes-authenticator-apps-and-hardware-security-keys)
+  - [2.3 Evidence for the effectiveness of MFA](#23-evidence-for-the-effectiveness-of-mfa)
+  - [2.4 Why SMS can still be used](#24-why-sms-can-still-be-used)
 - [3. Phishing and Social Engineering](#3-phishing-and-social-engineering)
   - [3.1 Phishing and its Different Forms](#31-phishing-and-its-different-forms)
     - [3.1.1 Phishing](#311-phishing)
@@ -60,6 +64,10 @@ This report relies mainly on official bodies. The National Cyber Security Centre
 *Sorena's part:*
 
 Phishing is a form of social engineering in which attackers impersonate trusted individuals or organisations to deceive victims into revealing sensitive information, transferring money or carrying out unsafe actions (National Institute of Standards and Technology, n.d.). Phishing can take several forms and often relies on psychological manipulation to increase the likelihood that a victim will respond.
+
+*Charlie's part:*
+
+Two-factor and multi-factor authentication add another layer of protection by requiring more than a password to access an account. Authentication can use something a person knows, has or is, while different MFA methods provide different levels of protection.
 
 *Nah's part:*
 
@@ -121,7 +129,35 @@ The 22% figure at the start of this section comes from Verizon's 2025 Data Breac
 
 ## 2. Two-Factor Authentication
 
-*[Charlie to add]*
+*Section owner: Charlie Broughton*
+
+### 2.1 Authentication factors
+
+Authentication factors describe what a user must provide or demonstrate to prove their identity. NIST identifies three categories: something you know, something you have and something you are (NIST, 2025).
+
+Something you know refers to information known by the user, such as a password, PIN or passphrase. Knowledge-based credentials can be guessed, stolen or exposed through phishing. NIST states that passwords are not phishing-resistant (NIST, 2025). Something you have refers to possession of a device or authentication token, such as a smartphone used for authentication, an authenticator app on a trusted device, a hardware security key or a token/code generator (NIST, 2025). Something you are refers to a biometric characteristic, such as a fingerprint or facial recognition (NIST, 2025).
+
+Two passwords do not constitute 2FA simply because two credentials are being entered. Both are examples of “something you know”, so they do not represent two different authentication factors. NIST explains that multiple instances of the same factor still constitute single-factor authentication (NIST, 2025). For example, a password and PIN do not provide two different factors, whereas a password and an authenticator on a trusted device provide “something you know” and “something you have”.
+
+### 2.2 Comparing SMS codes, authenticator apps and hardware security keys
+
+SMS-based 2FA sends a one-time code to the user’s registered phone number and is widely available. However, SMS-based authentication can be attacked through SIM swapping, where an attacker persuades a mobile provider to transfer the victim’s number to a SIM controlled by the attacker. NIST also identifies risks involving telephone-number reassignment and weaknesses in the public telephone network (NIST, 2025; CISA, 2023).
+
+Authenticator apps can generate one-time codes or provide approval notifications on a trusted device. They are generally more secure than SMS. A 2023 Microsoft research study also found that dedicated MFA applications outperformed SMS-based authentication in the dataset examined (Meyer et al., 2023). Authenticator apps are not automatically phishing-resistant. For example, an attacker can use phishing to trick a user into giving them a time-based one-time password. Push-based authentication can also suffer from “prompt fatigue” or push-bombing, where an attacker repeatedly sends approval requests hoping that the user eventually accepts one. The NCSC identifies this limitation for challenge-based authenticator apps and CISA identifies push-bombing and user error as weaknesses of ordinary push notification MFA (CISA, 2023; NCSC, 2024).
+
+Hardware security keys are physical authentication devices that the user must possess to authenticate. FIDO2 security keys use public-key cryptography and provide strong resistance against phishing and credential theft (NCSC, 2024). The NCSC identifies FIDO2 credentials, including roaming security keys, at the top of its recommended MFA methods because they provide strong authentication and phishing resistance (NCSC, 2024). However, hardware security keys can be lost or forgotten, and organisations may need to manage the cost of purchasing and replacing them (NCSC, 2024).
+
+A peer-reviewed study of 62 banking customers found that a two-factor method using a hardware security token was perceived as more secure than single-factor authentication. However, participants rated the two-factor method lower for usability, convenience and ease of use, demonstrating a trade-off between security and usability (Gunson et al., 2011).
+
+### 2.3 Evidence for the effectiveness of MFA
+
+The widely repeated 99.9% figure can be traced to Microsoft’s 2019 work. Alex Weinert’s Microsoft publication reported that accounts protected by MFA were more than 99.9% less likely to be compromised (Microsoft, 2019). However, this figure came from Microsoft’s research and should not be presented as a universal guarantee for every MFA implementation or every type of attack (Microsoft, 2019). The researchers analysed a large dataset of Microsoft Azure Active Directory users and found that MFA reduced the risk of account compromise by 99.22% across the population (Meyer et al., 2023). This reduced the risk by 98.56% when credentials had already been leaked and showed that dedicated MFA applications performed better than SMS-based authentication (Meyer et al., 2023).
+
+### 2.4 Why SMS can still be used
+
+The NCSC recommends that stronger MFA methods should be used where possible but also states that message-based methods such as SMS may still provide additional protection when stronger alternatives are unavailable (NCSC, 2024). Using a second authentication factor creates an additional barrier even if an attacker has obtained the user’s password (NCSC, 2024; Meyer et al., 2023). CISA similarly classifies SMS/voice MFA as a weaker option because of its vulnerabilities but recognises that it can still add protection compared with having password-only authentication (CISA, 2023).
+
+With password-only authentication, a stolen password may allow account access. With SMS-based 2FA, the attacker must also obtain the SMS code, creating an additional barrier. Authenticator applications provide a stronger alternative to SMS in many implementations, while FIDO2 security keys provide phishing-resistant cryptographic authentication (Meyer et al., 2023; NCSC, 2024).
 
 ---
 
@@ -292,6 +328,10 @@ Use three random words, or at least 15 characters, for each account (NCSC, N.D.a
 
 In conclusion, phishing remains a significant cyber-security threat because attackers combine deceptive messages with psychological techniques such as authority, urgency, fear and scarcity. Recognising warning signs, responding quickly to suspicious activity and using multiple layers of organisational security can reduce the risk and impact of successful phishing attacks (National Cyber Security Centre, 2018; NCSC, 2021b).
 
+*Charlie's part:*
+
+MFA can substantially reduce the risk of account compromise, but authentication methods are not equally secure. Stronger phishing-resistant methods should be preferred where practical, while SMS can still provide useful additional protection when stronger options are unavailable.
+
 *Nah's part:*
 
 In conclusion, keeping a device safe is not about one step; it means using several protections together, such as updates, screen locks, encryption and safe downloads, and keeping them up to date. If one protection fails, the others can still stop an attacker or limit the harm. A simple step everyone can take is to keep antivirus software turned on and updated, because this lets it recognise new malware (NCSC, 2021e).
@@ -305,6 +345,8 @@ In conclusion, keeping a device safe is not about one step; it means using sever
 Apache Software Foundation. (2021) *Apache Log4j 2 release notes*. [Online] Available from: https://logging.apache.org/log4j/2.x/release-notes.html. [Accessed 26 September 2026].
 
 Cybersecurity and Infrastructure Security Agency [CISA], Federal Bureau of Investigation [FBI], National Security Agency [NSA], Australian Cyber Security Centre [ACSC], Canadian Centre for Cyber Security [CCCS], Computer Emergency Response Team New Zealand [CERT NZ], New Zealand National Cyber Security Centre [NZ NCSC] and United Kingdom National Cyber Security Centre [NCSC-UK]. (2021) *Mitigating Log4Shell and other Log4j-related vulnerabilities*. [Online] Available from: https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a. [Accessed 26 September 2026].
+
+Cybersecurity and Infrastructure Security Agency [CISA]. (2023) *Implementing phishing-resistant MFA*. [Online] Available from: https://www.cisa.gov/. [Accessed 28 September 2026].
 
 Cybersecurity and Infrastructure Security Agency [CISA]. (n.d.) *How to protect the data that is stored on your devices*. [Online] Available from: https://www.cisa.gov/resources-tools/training/how-protect-data-stored-your-devices. [Accessed 26 September 2026].
 
@@ -320,11 +362,17 @@ Federal Bureau of Investigation. (n.d.a) *Business email compromise*. [Online] A
 
 Federal Bureau of Investigation. (n.d.b) *Spoofing and phishing*. [Online] Available from: https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams/spoofing-and-phishing. [Accessed 30 September 2026].
 
+Gunson, N., Marshall, D., Morton, H. and Jack, M. (2011) User perceptions of security and usability of single-factor and two-factor authentication in automated telephone banking. *Computers & Security*, 30(4), pp. 208-220. Available from: https://doi.org/10.1016/j.cose.2010.12.001.
+
 Howell, G., Franklin, J., Sritapan, V., Souppaya, M., and Scarfone, K. (2023) *Guidelines for managing the security of mobile devices in the enterprise*. NIST Special Publication 800-124 Revision 2. [Online] Available from: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-124r2.pdf. [Accessed 26 September 2026].
 
 Information Commissioner's Office. (2025) *23andMe fined £2.31 million for failing to protect UK users' genetic data*. [Online] Available from: https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2025/06/23andme-fined-for-failing-to-protect-uk-users-genetic-data/. [Accessed 25 September 2026].
 
 Langlois, P. (2025) *Additional 2025 DBIR research on credential stuffing*. [Online] Verizon Business. Available from: https://www.verizon.com/business/resources/articles/credential-stuffing-attacks-2025-dbir-research/. [Accessed 25 September 2026].
+
+Meyer, L.A., Romero, S., Bertoli, G., Burt, T., Weinert, A. and Lavista Ferres, J.M. (2023) *How effective is multifactor authentication at deterring cyberattacks?* [Online] arXiv. Available from: https://arxiv.org/abs/2305.00945. [Accessed 28 September 2026].
+
+Microsoft. (2019) *Your Pa$$word doesn't matter*. [Online] Available from: https://techcommunity.microsoft.com/blog/microsoft-entra-blog/your-paword-doesnt-matter/731984. [Accessed 30 September 2026].
 
 National Cyber Security Centre. (2018) *Phishing attacks: defending your organisation*. [Online] Available from: https://www.ncsc.gov.uk/guidance/phishing. [Accessed 30 September 2026].
 
@@ -339,6 +387,8 @@ National Cyber Security Centre. (2021d) *Keeping devices and software up to date
 National Cyber Security Centre. (2021e) *Antivirus and other security software*. [Online] Available from: https://www.ncsc.gov.uk/collection/device-security-guidance/policies-and-settings/antivirus-and-other-security-software. [Accessed 26 September 2026].
 
 National Cyber Security Centre. (2021f) *Using peripherals securely*. [Online] Available from: https://www.ncsc.gov.uk/collection/device-security-guidance/policies-and-settings/using-peripherals-securely. [Accessed 26 September 2026].
+
+National Cyber Security Centre. (2024) *Multi-factor authentication for your corporate online services: recommended types of MFA*. [Online] Available from: https://www.ncsc.gov.uk/collection/mfa-for-your-corporate-online-services/recommended-types-of-mfa. [Accessed 28 September 2026].
 
 National Cyber Security Centre. (2026) *Small organisations guide to cyber security: spotting cyber attacks*. [Online] Available from: https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security/spotting-cyber-attacks. [Accessed 30 September 2026].
 
