@@ -6,7 +6,7 @@
 |---|---|
 | **Team name** |The Avengers|
 | **Repository** |com4401-2026-ga8-4|
-| **Deadline** | |
+| **Deadline** | Fri 23 Oct 2026, 23:59 |
 | **How we'll keep in touch** | Microsoft Teams and Snapchat |
 
 ---
