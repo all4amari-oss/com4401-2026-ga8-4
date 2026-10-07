@@ -7,7 +7,7 @@
 | **Team name** |The Avengers|
 | **Repository** |com4401-2026-ga8-4|
 | **Deadline** | |
-| **How we'll keep in touch** | *(e.g. group chat, weekly check-in)* |
+| **How we'll keep in touch** | Microsoft Teams and Snapchat |
 
 ---
 
@@ -15,7 +15,7 @@
 
 | Member | Build / area owned | What they'll deliver |
 |--------|--------------------|----------------------|
-|Sorana| Administrative Assistant build |<p>Basic office hardware workstation with email, documents, spreadsheets, web systems, online meetings, and basic customer records. </p>|
+|Sorena| Administrative Assistant build |<p>Basic office hardware workstation with email, documents, spreadsheets, web systems, online meetings, and basic customer records. </p>|
 <img width="2400" height="1260" alt="image" src="https://github.com/user-attachments/assets/d429d7a2-ef6d-4582-a866-a478c4ef5f21"/>
 BuildCores Parts List: [Link](https://uk.buildcores.com/builds/zT9H0Zxkz?share=true)
 
@@ -134,15 +134,17 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/-2koTmVPS?share=t
 ---
 ## 2. Responsibility Assignment (RACI)
 
-R = Responsible · A = Accountable · C = Consulted · I = Informed
+Responsible = did the work · Accountable = answers for it being right · Consulted = was asked for their view · Informed = was kept in the loop
 
-| Task | Member 1 | Member 2 | Member 3 | Member 4 |
-|------|----------|----------|----------|----------|
-| Database schema (tables, keys, data types) | | | | |
-| EmployeeRoles table | | | | |
-| WorkstationBuilds table | | | | |
-| BuildItems table | | | | |
-| Recommendations table | | | | |
-| Data integrity rules (PKs, FKs, NOT NULL, numeric costs) | | | | |
-| Ethical / professional considerations write-up | | | | |
-| Final team recommendation & budget check | | | | |
+| Task | Marcus | Nah | Charlie | Sorena |
+|------|--------|-----|---------|--------|
+| Database tables and keys | Responsible, Accountable | Responsible | Responsible | Responsible |
+| Admin Assistant parts | Consulted | Informed | Informed | Responsible, Accountable |
+| Project Manager parts | Informed | Responsible, Accountable | Informed | Informed |
+| CAD Designer parts | Responsible, Accountable | Informed | Informed | Informed |
+| 3D Visualisation parts | Consulted | Informed | Responsible, Accountable | Informed |
+| Recommendations | Responsible, Accountable | Responsible | Responsible | Responsible |
+| Queries and data integrity tests | Responsible, Accountable | Responsible | Responsible | Informed |
+| Combined budget | Responsible, Accountable | Responsible | Responsible | Responsible |
+| Final recommendation | Responsible, Accountable | Consulted | Consulted | Consulted |
+| Ethics write-up | Responsible, Accountable | Informed | Informed | Informed |
