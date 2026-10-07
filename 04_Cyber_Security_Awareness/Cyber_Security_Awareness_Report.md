@@ -26,21 +26,9 @@
   - [2.4 Why SMS can still be used](#24-why-sms-can-still-be-used)
 - [3. Phishing and Social Engineering](#3-phishing-and-social-engineering)
   - [3.1 Phishing and its Different Forms](#31-phishing-and-its-different-forms)
-    - [3.1.1 Phishing](#311-phishing)
-    - [3.1.2 Spear Phishing](#312-spear-phishing)
-    - [3.1.3 Smishing](#313-smishing)
-    - [3.1.4 Vishing](#314-vishing)
-    - [3.1.5 Business Email Compromise (BEC)](#315-business-email-compromise-bec)
   - [3.2 Psychological Techniques](#32-psychological-techniques)
-    - [3.2.1 Authority](#321-authority)
-    - [3.2.2 Urgency](#322-urgency)
-    - [3.2.3 Fear](#323-fear)
-    - [3.2.4 Scarcity / Fear of Missing Out](#324-scarcity--fear-of-missing-out)
   - [3.3 Indicators of Phishing](#33-indicators-of-phishing)
   - [3.4 What Should Someone Do if They Suspect or Click Phishing?](#34-what-should-someone-do-if-they-suspect-or-click-phishing)
-    - [3.4.1 If a Message Looks Suspicious](#341-if-a-message-looks-suspicious)
-    - [3.4.2 If the User Has Already Clicked or Shared Information](#342-if-the-user-has-already-clicked-or-shared-information)
-    - [3.4.3 Organisational Response](#343-organisational-response)
 - [4. Safe Use of Devices](#4-safe-use-of-devices)
   - [4.1 Keeping Software Updated: Vulnerabilities, Patches, and Exploits](#41-keeping-software-updated-vulnerabilities-patches-and-exploits)
   - [4.2 Device Encryption, Screen Locks, and Security Software](#42-device-encryption-screen-locks-and-security-software)
@@ -167,11 +155,11 @@ With password-only authentication, a stolen password may allow account access. W
 
 ### 3.1 Phishing and its Different Forms
 
-#### 3.1.1 Phishing
+**Phishing**
 
 Phishing is a type of social engineering attack in which criminals impersonate a trusted organisation or individual in order to persuade victims to disclose sensitive information, transfer money, or visit a malicious website (National Institute of Standards and Technology, n.d.).
 
-#### 3.1.2 Spear Phishing
+**Spear Phishing**
 
 Unlike general phishing attacks, spear phishing is highly targeted. Attackers use information about a specific organisation or employee to make the message more convincing and realistic (National Cyber Security Centre, 2018).
 
@@ -183,7 +171,7 @@ Unlike general phishing attacks, spear phishing is highly targeted. Attackers us
 
 > *Hi Alex, I need you to check the new finance report.*
 
-#### 3.1.3 Smishing
+**Smishing**
 
 Smishing is phishing conducted through SMS or other text messages. Attackers commonly use messages containing malicious links or other deceptive instructions to persuade victims to provide personal or financial information (Federal Bureau of Investigation, n.d.b).
 
@@ -191,7 +179,7 @@ Smishing is phishing conducted through SMS or other text messages. Attackers com
 
 > *Your parcel could not be delivered. Pay £3.50 to reschedule delivery.*
 
-#### 3.1.4 Vishing
+**Vishing**
 
 Vishing is phishing carried out through phone calls, voice messages or Voice over Internet Protocol (VoIP). Attackers may impersonate an official organisation, such as a bank or government department, to gain trust and request personal information (Federal Bureau of Investigation, n.d.b; NCSC, 2021b).
 
@@ -199,7 +187,7 @@ Vishing is phishing carried out through phone calls, voice messages or Voice ove
 
 > *I am calling from the Metropolitan Police. Someone has committed an offence using your National Insurance number. Please provide your National Insurance number so that we can verify your identity.*
 
-#### 3.1.5 Business Email Compromise (BEC)
+**Business Email Compromise (BEC)**
 
 Business Email Compromise usually targets organisations. Attackers may spoof or compromise email accounts and impersonate a colleague, manager, executive or trusted business contact. BEC often aims to persuade the victim to make a financial transfer or change payment details (Federal Bureau of Investigation, n.d.a).
 
@@ -211,11 +199,11 @@ Business Email Compromise usually targets organisations. Attackers may spoof or 
 
 Phishing is not solely a technical problem; social-engineering attacks often rely on psychological techniques that influence how people respond to requests (Stylianou et al., 2025).
 
-#### 3.2.1 Authority
+**Authority**
 
 Authority is an important social-engineering technique because people may be more willing to follow instructions that appear to come from a manager, government organisation or other trusted authority figure (Stylianou et al., 2025). Williams et al. (2018) examined nine simulated spear-phishing emails sent to 62,000 employees and found that authority cues increased the likelihood that a user would click a suspicious link.
 
-#### 3.2.2 Urgency
+**Urgency**
 
 Attackers often create artificial urgency by claiming that immediate action is required. This can reduce the time a victim has to evaluate a message carefully and can encourage faster decisions. Urgency is a recognised social-engineering technique in phishing messages (NCSC, 2021b; Williams et al., 2018).
 
@@ -223,7 +211,7 @@ Attackers often create artificial urgency by claiming that immediate action is r
 
 > *Your account will be suspended in 50 minutes.*
 
-#### 3.2.3 Fear
+**Fear**
 
 Fear can influence emotional decision-making. Scam messages may make a person panic or feel threatened in order to pressure them into acting without thinking carefully (NCSC, 2021b).
 
@@ -231,7 +219,7 @@ Fear can influence emotional decision-making. Scam messages may make a person pa
 
 > *Suspicious activity has been detected. Your bank account will be locked.*
 
-#### 3.2.4 Scarcity / Fear of Missing Out
+**Scarcity / Fear of Missing Out**
 
 Scarcity is used when a message suggests that an opportunity is limited or may disappear quickly. The NCSC notes that fear of missing out can make people respond more quickly to a scam message (NCSC, 2021b).
 
@@ -264,18 +252,18 @@ However, users should not rely only on these signs. The NCSC explains that moder
 
 ### 3.4 What Should Someone Do if They Suspect or Click Phishing?
 
-#### 3.4.1 If a Message Looks Suspicious
+**If a Message Looks Suspicious**
 
 If a message appears suspicious, the recipient should not click links, open attachments or use contact details provided in the message. Instead, the organisation should be contacted independently using verified details from its official website. The user can also visit the organisation's official website manually to check their account (NCSC, 2021b).
 
-#### 3.4.2 If the User Has Already Clicked or Shared Information
+**If the User Has Already Clicked or Shared Information**
 
 - If a password was entered, the user should change that password and any other accounts that use the same password (NCSC, 2021c).
 - If banking details were shared, the user should contact their bank immediately (NCSC, 2021c).
 - If a suspicious application or file was installed, the user should run a full antivirus scan and allow the security software to remove any problems it finds (NCSC, 2021c).
 - If the incident happened on a work laptop or phone, the user should inform the organisation's IT department (NCSC, 2021c).
 
-#### 3.4.3 Organisational Response
+**Organisational Response**
 
 At organisational level, phishing should be addressed through multiple layers of security rather than relying entirely on employees to recognise every attack. The NCSC recommends a layered approach that combines technical, process and people-based controls (NCSC, 2018).
 
