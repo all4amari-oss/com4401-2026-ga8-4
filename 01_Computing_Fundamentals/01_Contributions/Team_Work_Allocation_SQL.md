@@ -41,9 +41,13 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/zT9H0Zxkz?share=t
 |--------|--------------------|----------------------|
 |Nah| Project Manager build (taken over from Mo) |<p>Business hardware workstation with a stronger display/workflow setup (two monitors) for reports, meetings, project planning, reviewing drawings, dashboards and client communication.</p>|
 
-![Project Manager build on BuildCores, part 1](PM_Build_Evidence/PM_Build_1.png)
-![Project Manager build on BuildCores, part 2](PM_Build_Evidence/PM_Build_2.png)
-![Project Manager build on BuildCores, part 3](PM_Build_Evidence/PM_Build_3.png)
+![Project Manager build on BuildCores, parts list 1 of 3](PM_Build_Evidence/Readable/PM_Build_1_parts.png)
+
+![Project Manager build on BuildCores, parts list 2 of 3](PM_Build_Evidence/Readable/PM_Build_2_parts.png)
+
+![Project Manager build on BuildCores, parts list 3 of 3](PM_Build_Evidence/Readable/PM_Build_3_parts.png)
+
+Full BuildCores screenshots: [part 1](PM_Build_Evidence/PM_Build_1.png) · [part 2](PM_Build_Evidence/PM_Build_2.png) · [part 3](PM_Build_Evidence/PM_Build_3.png)
 
 BuildCores Parts List: [Link](https://uk.buildcores.com/builds/-2koTmVPS?share=true)
 
