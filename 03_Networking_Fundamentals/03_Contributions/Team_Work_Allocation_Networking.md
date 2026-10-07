@@ -5,10 +5,10 @@
 
 | | |
 |---|---|
-| **Team name** | |
-| **Repository** | |
+| **Team name** | The Avengers |
+| **Repository** | com4401-2026-ga8-4 |
 | **Submission date** | Friday 23 October 2026 |
-| **How we'll keep in touch** | *(e.g. group chat, weekly check-in)* |
+| **How we'll keep in touch** | Microsoft Teams and Snapchat |
 
 ---
 
