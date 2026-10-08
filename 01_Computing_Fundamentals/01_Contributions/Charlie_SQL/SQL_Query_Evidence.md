@@ -106,7 +106,8 @@ ON i.BuildID = b.BuildID
 JOIN EmployeeRoles r
 ON b.RoleID = r.RoleID;
 ```
-<img width="2556" height="1392" alt="Query10" src="https://github.com/user-attachments/assets/997c220d-2aa9-40a9-b8e2-55257be4480e" />
+<img width="2557" height="1386" alt="Query10" src="https://github.com/user-attachments/assets/893a0dc9-8006-4516-ac73-992df896b0a5" />
+<img width="2558" height="1390" alt="Query10_2" src="https://github.com/user-attachments/assets/58e1d854-b3c3-4b16-9aed-17f1b05323ae" />
 This query joins three tables together. It shows each hardware item, the workstation build it belongs to and the role that build is designed for.
 
 ### Query 11: Spend per role
