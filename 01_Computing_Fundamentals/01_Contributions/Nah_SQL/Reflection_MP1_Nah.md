@@ -8,11 +8,11 @@ I did not have a role for Mini Project 1 at first. When Mo left the team, I took
 
 ## How I learned it
 
-Before this project, I had never used BuildCores, SQL or OneCompiler. I took some advice from Marcus, and I asked Claude to explain things and make them simple so I could understand. I typed each SQL line myself, and Claude checked it before I ran it.
+Before this project, I had never used BuildCores, SQL or OneCompiler. I took some advice from Marcus. I typed each SQL line myself and ran it in OneCompiler.
 
 ## What was hardest
 
-Writing SQL was hard because I kept making mistakes and had to go back and fix them. In the end, Claude helped me understand how to write SQL.
+Writing SQL was hard because I kept making mistakes and had to go back and fix them.
 
 ## What I got wrong and fixed
 
