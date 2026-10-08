@@ -5,7 +5,7 @@
 ### NIST (2025)
 **What the source supports:** NIST identifies authentication factors as something you know, something you have and something you are. It supports the classification of passwords/PINs as knowledge-based factors, possession of devices or cryptographic authenticators as something you have, and biometric characteristics as something you are.
 
-**How it was used:** Used for the definitions and classifications in Section 2.1 and for the point that two credentials from the same factor category do not create two-factor authentication.
+**How it was used:** Used for the definitions and classifications in Question 1 and for the point that two credentials from the same factor category do not create two-factor authentication.
 
 **Harvard reference:**  
 NIST (2025) *Digital Identity Guidelines: Authentication and Authenticator Management (SP 800-63B)*. National Institute of Standards and Technology. Available at: https://pages.nist.gov/800-63-4/sp800-63b/ (Accessed: 28 September 2026).
@@ -20,10 +20,10 @@ NIST (2025) *Digital Identity Guidelines: Authentication and Authenticator Manag
 ### CISA (2023)
 **What the source supports:** CISA's guidance discusses phishing-resistant MFA and identifies weaknesses affecting SMS/voice MFA and ordinary push-notification MFA, including phishing, SIM-swapping/telephone-related risks and push-bombing.
 
-**How it was used:** Used in Section 2.2 for SMS and push-notification weaknesses.
+**How it was used:** Used in Question 2 for SMS and push-notification weaknesses.
 
 **Harvard reference:**  
-CISA (2023) *Implementing phishing-resistant MFA*. Cybersecurity and Infrastructure Security Agency. Available at: https://www.cisa.gov/ (Accessed: 28 September 2026).
+CISA (2023) *Implementing phishing-resistant MFA*. Cybersecurity and Infrastructure Security Agency. Available at: https://www.cisa.gov/sites/default/files/2023-01/fact-sheet-implementing-phishing-resistant-mfa-508c.pdf (Accessed: 28 September 2026).
 
 ### National Cyber Security Centre (2024)
 **What the source supports:** The NCSC's recommended MFA methods place stronger methods such as FIDO2 above message-based methods. The guidance explains weaknesses of message-based methods and limitations of challenge-based authenticator apps, and describes FIDO2 security keys as strongly resistant to phishing.
@@ -41,7 +41,7 @@ National Cyber Security Centre (2024) *Multi-factor authentication for your corp
 **Harvard reference:**  
 Gunson, N., Marshall, D., Morton, H. and Jack, M. (2011) ‘User perceptions of security and usability of single-factor and two-factor authentication in automated telephone banking’, *Computers and Security*, 30(4), pp. 208–220. doi: 10.1016/j.cose.2010.12.001.
 
-**Evidence file:** `Charlie_Section2/Gunson_2011_GoogleScholar.png`
+**Evidence:** Google Scholar screenshot of Gunson et al. (2011) is in the `Charlie_Section2` folder.
 
 ## Question 3 — Effectiveness of MFA and original source of statistics
 
@@ -51,7 +51,7 @@ Gunson, N., Marshall, D., Morton, H. and Jack, M. (2011) ‘User perceptions of 
 **How it was used:** Used to trace the origin of the 99.9% figure.
 
 **Harvard reference:**  
-Microsoft (2019) *Your Pa$$word doesn’t matter*. Available at: https://techcommunity.microsoft.com/ (Accessed: 30 August 2026).
+Microsoft (2019) *Your Pa$$word doesn’t matter*. Available at: https://techcommunity.microsoft.com/blog/microsoft-entra-blog/your-paword-doesnt-matter/731984 (Accessed: 30 September 2026).
 
 ### Meyer et al. (2023)
 **What the source supports:** The study analysed a large dataset of Microsoft Azure Active Directory users and reported a 99.22% reduction in risk of account compromise across the population studied and a 98.56% reduction when credentials had already been leaked. It also reported that dedicated MFA applications outperformed SMS-based authentication in the study.
