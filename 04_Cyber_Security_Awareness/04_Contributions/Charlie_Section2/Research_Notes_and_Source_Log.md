@@ -41,7 +41,7 @@ National Cyber Security Centre (2024) *Multi-factor authentication for your corp
 **Harvard reference:**  
 Gunson, N., Marshall, D., Morton, H. and Jack, M. (2011) ‘User perceptions of security and usability of single-factor and two-factor authentication in automated telephone banking’, *Computers and Security*, 30(4), pp. 208–220. doi: 10.1016/j.cose.2010.12.001.
 
-**Evidence file:** `Evidence/GoogleScholar/Gunson_2011_GoogleScholar.png`
+**Evidence file:** `Charlie_Section2/Gunson_2011_GoogleScholar.png`
 
 ## Question 3 — Effectiveness of MFA and original source of statistics
 
