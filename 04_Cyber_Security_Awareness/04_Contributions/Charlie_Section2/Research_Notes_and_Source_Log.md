@@ -76,5 +76,5 @@ Meyer, L.A., Romero, S., Bertoli, G., Burt, T., Weinert, A. and Lavista Ferres, 
 - 6 sources collected: CISA, Gunson et al., Meyer et al., Microsoft, NCSC and NIST.
 - Official/authoritative sources: NIST, NCSC and CISA.
 - Peer-reviewed journal paper: Gunson et al. (2011).
-- Google Scholar evidence saved in `Evidence/GoogleScholar`.
+- Google Scholar evidence saved in `Charlie_Section2`.
 - Statistics traced to Microsoft (2019) and Meyer et al. (2023).
