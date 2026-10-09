@@ -14,34 +14,33 @@
 
 ## 1. Who's doing what
 
-| Member | Area owned | What they'll deliver |
-|--------|------------|----------------------|
-| | LAN design | Internal network diagram (devices, switches, layout) |
-| | External / internet connection | Router, gateway and connection to the wider network |
-| | IP addressing | Addressing scheme, subnet plan and device table |
-| | Protocols & simulation | Protocol explanations and the working Filius model |
+We build one shared Filius file, one person after another, in the order below. Each person adds their part, saves the file to GitHub and tells the group chat, then the next person starts.
 
-> Add or remove a row for a 3- or 5-person team. The addressing plan and the Filius build depend on the LAN design, so agree the design first. Shared tasks (final test evidence, ethics/professional write-up, report merge) can be added as extra rows.
+| Order | Member | Area owned | What they'll deliver |
+|-------|--------|------------|----------------------|
+| 1 | Charlie | LAN design | Internal network diagram (devices, switches, layout) |
+| 2 | Marcus | External / internet connection | Router, gateway and connection to the wider network |
+| 3 | Nah | IP addressing | Addressing scheme, subnet plan and device table |
+| 4 | Sorena | Protocols & simulation | Protocol explanations and the working Filius model |
 
 ---
 
 ## 2. Responsibility Assignment (RACI)
 
-R = Responsible · A = Accountable · C = Consulted · I = Informed
+Responsible = did the work · Accountable = answers for it being right · Consulted = was asked for their view · Informed = was kept in the loop
 
-| Task | Member 1 | Member 2 | Member 3 | Member 4 |
-|------|----------|----------|----------|----------|
-| LAN design (devices, switches, topology) | | | | |
-| External network / internet gateway design | | | | |
-| IP addressing scheme & subnet plan | | | | |
-| Device address table (IPs, subnet mask, gateway) | | | | |
-| Protocol explanation: DNS | | | | |
-| Protocol explanation: HTTP | | | | |
-| Protocol explanation: ICMP (ping) | | | | |
-| Protocol explanation: TCP/IP | | | | |
-| Filius simulation build (matches the design) | | | | |
-| Test evidence (successful ping / browser request) | | | | |
-| Ethical / professional considerations write-up | | | | |
-| Final team walkthrough & consistency check | | | | |
-
-> Columns are the team members — replace the headers with names. Add or remove a column for a 3- or 5-person team, and make sure the design, addressing, protocols and simulation are each owned by someone.
+| Task | Marcus | Nah | Charlie | Sorena |
+|------|--------|-----|---------|--------|
+| LAN design (devices, switches, topology) | Informed | Informed | Responsible, Accountable | Informed |
+| External network / internet gateway design | Responsible, Accountable | Informed | Informed | Informed |
+| IP addressing scheme & subnet plan | Informed | Responsible, Accountable | Informed | Informed |
+| Device address table (IPs, subnet mask, gateway) | Informed | Responsible, Accountable | Informed | Informed |
+| Protocol explanation: DNS | Consulted | Consulted | Consulted | Responsible, Accountable |
+| Protocol explanation: HTTP | Consulted | Consulted | Consulted | Responsible, Accountable |
+| Protocol explanation: ICMP (ping) | Consulted | Consulted | Consulted | Responsible, Accountable |
+| Protocol explanation: TCP/IP | Consulted | Consulted | Consulted | Responsible, Accountable |
+| Protocol explanation: Client-server | Consulted | Consulted | Consulted | Responsible, Accountable |
+| Short explanation: LAN vs external network and the client-server model | Responsible, Accountable | Consulted | Consulted | Consulted |
+| Filius simulation build (matches the design) | Responsible, Accountable | Responsible | Responsible | Responsible |
+| Test evidence (successful ping / browser request) | Responsible | Responsible | Responsible | Responsible, Accountable |
+| Final team walkthrough & consistency check | Responsible, Accountable | Responsible | Responsible | Responsible |
