@@ -40,5 +40,4 @@ Responsible = did the work · Accountable = answers for it being right · Consul
 | Validation / error handling | Responsible | Informed | Informed | Responsible, Accountable |
 | Testing against the plan & recording results | Consulted | Responsible, Accountable | Informed | Consulted |
 | Deployment notes (how it would be rolled out) | Responsible, Accountable | Consulted | Consulted | Consulted |
-| Ethical / professional considerations write-up | Responsible, Accountable | Informed | Informed | Informed |
 | Final team walkthrough & consistency check | Responsible, Accountable | Responsible | Responsible | Responsible |
