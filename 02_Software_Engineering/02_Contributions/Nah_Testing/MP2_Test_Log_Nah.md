@@ -84,14 +84,25 @@ The brief asks for evidence of fixes or improvements after testing. For every te
 
 | Test # | What went wrong | Fix made (by whom) | Retest result | Pass / Fail | Retest screenshot |
 |---|---|---|---|---|---|
-| 3 | The program asks for payment details instead of a phone number, and the bill has no phone number or "Number of pizzas" line. |  |  |  |  |
-| 5 | The program only accepts 0 to 4 toppings, but the brief says "4 or more extra toppings: £2.50", so more than 4 should be accepted (and charged £2.50). |  |  |  |  |
-| 6 | The error message for the wrong number of pizzas is "Invalid number. Enter 1 to 6:", not "Error, must be between 1 and 6!" as in the design. |  |  |  |  |
-| 7 | Same as Test 6 (error message wording). |  |  |  |  |
-| 9 | Round the discount to 2 decimal places before working out the total, so the bill adds up (£18.04). |  |  |  |  |
-| 10 | Same as Test 5 (more than 4 toppings should be accepted and charged £2.50). |  |  |  |  |
-| 11 | The program uses size numbers 1 to 3, but the design uses IDs 0 to 2. The team needs to agree on one and update either the program or the design and test plan. |  |  |  |  |
-| 12 | Same as Test 11 (size numbering 1 to 3 compared with IDs 0 to 2), and the error message wording differs from the design. |  |  |  |  |
-| 13 | Error message wording for toppings differs from the design. |  |  |  |  |
-| 14 | Error message wording for delivery differs from the design. |  |  |  |  |
-| 15 | Add a check so a blank customer name is rejected with "This cannot be blank, try again!" and asked again (the design's checkBlank step). |  |  |  |  |
+| 3 | The program asks for payment details instead of a phone number, and the bill has no phone number or "Number of pizzas" line. | Sorena (v2): the program asks for a phone number, and the bill shows the phone and "Number of pizzas" | Bill shows Name, Address, Phone: 01234 567890 and Number of pizzas: 2 | Pass | Retest_v2/Retest_T01_T03_1.png to Retest_T01_T03_5.png |
+| 5 | The program only accepts 0 to 4 toppings, but the brief says "4 or more extra toppings: £2.50", so more than 4 should be accepted (and charged £2.50). | Sorena (v2): any number of toppings from 0 upwards is accepted; 4 or more cost £2.50 | 9 toppings accepted on a Large: "Large pizza with 9 topping(s): £9.65" | Pass | Retest_v2/Retest_T05_T10_1.png to Retest_T05_T10_5.png |
+| 6 | The error message for the wrong number of pizzas is "Invalid number. Enter 1 to 6:", not "Error, must be between 1 and 6!" as in the design. | No change in v2 | 7 was rejected and it asked again, but the message is still "Invalid number. Enter 1 to 6:" (behaviour correct, wording differs from the design) | Fail | Retest_v2/Retest_errors_1.png to Retest_errors_5.png |
+| 7 | Same as Test 6 (error message wording). | No change in v2 | 0 was rejected and it asked again, but the message is still "Invalid number. Enter 1 to 6:" (behaviour correct, wording differs from the design) | Fail | Retest_v2/Retest_errors_1.png to Retest_errors_5.png |
+| 9 | Round the discount to 2 decimal places before working out the total, so the bill adds up (£18.04). | Sorena (v2): the discount is rounded to the nearest penny before the total is worked out | Subtotal £20.05, discount -£2.01, delivery £0.00, total £18.04. The bill now adds up. | Pass | Retest_v2/Retest_T09_1.png to Retest_T09_5.png, Retest_T09_6_total.png |
+| 10 | Same as Test 5 (more than 4 toppings should be accepted and charged £2.50). | Sorena (v2): same fix as Test 5 | 5 toppings accepted on a Small: "Small pizza with 5 topping(s): £5.75" | Pass | Retest_v2/Retest_T05_T10_1.png to Retest_T05_T10_5.png |
+| 11 | The program uses size numbers 1 to 3, but the design uses IDs 0 to 2. The team needs to agree on one and update either the program or the design and test plan. | Sorena (v2): sizes changed to 0 = Small, 1 = Medium, 2 = Large | 3 is now rejected and it asked again (behaviour fixed), but the message is "Invalid size. Enter 0, 1 or 2:" instead of "Invalid choice. Please enter an ID from 0 to 2" | Fail | Retest_v2/Retest_errors_1.png to Retest_errors_5.png |
+| 12 | Same as Test 11 (size numbering 1 to 3 compared with IDs 0 to 2), and the error message wording differs from the design. | Sorena (v2): sizes changed to 0 to 2 | -1 was rejected and 0 was accepted as Small (behaviour fixed), but the message is "Invalid size. Enter 0, 1 or 2:" instead of "Invalid choice. Please enter an ID from 0 to 2" | Fail | Retest_v2/Retest_errors_1.png to Retest_errors_5.png |
+| 13 | Error message wording for toppings differs from the design. | Sorena (v2): toppings message changed | -1 was rejected and it asked again, then 0 was accepted (behaviour correct), but the message is "Invalid number. Enter 0 or more:" instead of "Invalid. Toppings cannot be less than 0" | Fail | Retest_v2/Retest_errors_1.png to Retest_errors_5.png |
+| 14 | Error message wording for delivery differs from the design. | No change in v2 | "X" was rejected and it asked again, then "N" was accepted (behaviour correct), but the message is still "Invalid choice. Enter Y or N:" instead of "Please enter Y or N" | Fail | Retest_v2/Retest_T14_T15_1.png to Retest_T14_T15_5.png |
+| 15 | Add a check so a blank customer name is rejected with "This cannot be blank, try again!" and asked again (the design's checkBlank step). | Sorena (v2): blank names are now rejected and asked again | The blank name was rejected and it asked again (behaviour fixed), but the message is "Name cannot be blank. Enter customer name:" instead of "This cannot be blank, try again!" | Fail | Retest_v2/Retest_T14_T15_1.png to Retest_T14_T15_5.png |
+
+**Retest summary:** After Sorena updated the program (version 2), I retested the 11 tests that failed and re-ran Tests 1 and 4 to check nothing else had broken. The phone number and number of pizzas are now showing on the bill, more than 4 toppings can now be ordered, the bill now adds up correctly (the 1p rounding error is fixed) and the blank name is now rejected. These were the main problems from the first round of testing. The only problem left is that the wording of some error messages is still different from the design (Tests 6, 7, 11, 12, 13, 14 and 15).
+
+### Regression checks on v2
+
+The size numbers changed in v2 (now 0 = Small, 1 = Medium, 2 = Large), so tests that passed before were run again to check nothing else broke. Retested on *Sorenas_Flowchart_v2.fprg* (uploaded 13 October 2026), on 14 October 2026.
+
+| Test # | Re-run result on v2 | Pass / Fail | Screenshot |
+|---|---|---|---|
+| 1 | Subtotal £16.50, discount -£0.00, delivery £2.50, total £19.00 | Pass | Retest_v2/Retest_T01_T03_1.png to Retest_T01_T03_5.png |
+| 4 | 1 Small, 0 toppings, delivery N: subtotal £3.25, discount -£0.00, delivery £0.00, total £3.25 | Pass | Retest_v2/Retest_T14_T15_1.png to Retest_T14_T15_5.png |
