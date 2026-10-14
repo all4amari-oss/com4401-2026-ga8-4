@@ -106,3 +106,28 @@ The size numbers changed in v2 (now 0 = Small, 1 = Medium, 2 = Large), so tests 
 |---|---|---|---|
 | 1 | Subtotal £16.50, discount -£0.00, delivery £2.50, total £19.00 | Pass | Retest_v2/Retest_T01_T03_1.png to Retest_T01_T03_5.png |
 | 4 | 1 Small, 0 toppings, delivery N: subtotal £3.25, discount -£0.00, delivery £0.00, total £3.25 | Pass | Retest_v2/Retest_T14_T15_1.png to Retest_T14_T15_5.png |
+
+---
+
+## Second retest (v3)
+
+After the v2 retest, Marcus asked Sorena to change the error messages to match the design word for word, and to add the blank check to the address and phone as well. Retested on *Sorenas_Flowchart 3 edition* (uploaded 14 October 2026), on 14 October 2026.
+
+**Note:** the v3 file was uploaded to GitHub without the *.fprg* ending, so the browser saved it as a *.txt* file. It had to be renamed to *.fprg* before Flowgorithm would open it.
+
+| Test # | Test data | Expected result | Actual result on v3 | Pass / Fail | Screenshot |
+|---|---|---|---|---|---|
+| 15 | Blank customer name, then a name | "This cannot be blank, try again!" and asked again | "This cannot be blank, try again!" and asked again | Pass | Retest_v3/Retest_v3_1.png to Retest_v3_5.png |
+| New | Blank address, then an address | "This cannot be blank, try again!" and asked again | "This cannot be blank, try again!" and asked again | Pass | Retest_v3/Retest_v3_1.png to Retest_v3_5.png |
+| New | Blank phone number, then a number | "This cannot be blank, try again!" and asked again | "This cannot be blank, try again!" and asked again | Pass | Retest_v3/Retest_v3_1.png to Retest_v3_5.png |
+| 6 | 7 pizzas | "Error, must be between 1 and 6!" and asked again | "Error, must be between 1 and 6!" and asked again | Pass | Retest_v3/Retest_v3_1.png to Retest_v3_5.png |
+| 7 | 0 pizzas, then 1 | "Error, must be between 1 and 6!" and asked again | "Error, must be between 1 and 6!" and asked again, then 1 accepted | Pass | Retest_v3/Retest_v3_1.png to Retest_v3_5.png |
+| 11 | Size ID 3 | "Invalid choice. Please enter an ID from 0 to 2" and asked again | "Invalid choice. Please enter an ID from 0 to 2" and asked again | Pass | Retest_v3/Retest_v3_1.png to Retest_v3_5.png |
+| 12 | Size ID −1, then 0 | "Invalid choice. Please enter an ID from 0 to 2" and asked again, then 0 accepted | "Invalid choice. Please enter an ID from 0 to 2" and asked again, then 0 accepted as Small | Pass | Retest_v3/Retest_v3_1.png to Retest_v3_5.png |
+| 13 | Toppings −1, then 0 | "Invalid. Toppings cannot be less than 0" and asked again | "Invalid. Toppings cannot be less than 0" and asked again, then 0 accepted | Pass | Retest_v3/Retest_v3_1.png to Retest_v3_5.png |
+| 14 | Delivery "X", then "N" | "Please enter Y or N" and asked again | "Please enter Y or N" and asked again, then N accepted | Pass | Retest_v3/Retest_v3_1.png to Retest_v3_5.png |
+| 4 (regression) | 1 Small, 0 toppings, delivery N | Total £3.25 | Subtotal £3.25, discount -£0.00, delivery £0.00, total £3.25 | Pass | Retest_v3/Retest_v3_1.png to Retest_v3_5.png (the saved bill screenshot shows the bill up to "Number of pizzas: 1"; the total of £3.25 was seen on screen but that screenshot was not saved) |
+
+| 1 (regression) | 2 pizzas: Large + 2 toppings, Medium + 4 toppings. Delivery Y. | Total £19.00 | Large £8.50, Medium £8.00, subtotal £16.50, discount -£0.00, delivery £2.50, total £19.00 | Pass | Retest_v3/Retest_v3_T01_1.png to Retest_v3_T01_5.png |
+
+**Final summary:** After Marcus asked for the error messages to match the design, Sorena uploaded version 3. I retested the 7 wording tests (6, 7 and 11 to 15), plus the new blank address and phone checks, and all of them passed. I also re-ran Tests 1 and 4, and they still passed. Every test that failed in the first round has now passed.
