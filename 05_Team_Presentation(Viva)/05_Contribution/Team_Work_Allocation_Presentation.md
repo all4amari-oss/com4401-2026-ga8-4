@@ -21,7 +21,7 @@
 |Sorena| MP2 — Software Engineering | Strongest evidence from the software project |
 |Sorena| MP3 — Networking | Strongest evidence from the networking project |
 |Marcus| MP4 — Cyber-Security | Strongest evidence from the cyber-security project |
-|Marcus/Charlie| Intro & conclusion (whole team) | Opening, the live demonstration and the reflection |
+|Marcus/Nah'Kajsha/Charlie| Intro & conclusion (whole team) | Opening, the live demonstration and the reflection |
 
 > Every member must present a meaningful part — a member who does not present (without an approved reason) cannot pass this component. Introduction, live demo and conclusion are shared. Pick the single strongest piece of evidence per project rather than re-presenting the whole report. Aim for **15–20 minutes** with a sensible split across the team.
 
