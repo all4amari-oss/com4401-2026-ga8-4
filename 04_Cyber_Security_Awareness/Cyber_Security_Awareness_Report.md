@@ -47,7 +47,7 @@ This report relies mainly on official bodies. The National Cyber Security Centre
 
 Section 1 covers passwords. Section 2 covers two-factor and multi-factor authentication, which add another layer of protection by asking for more than a password before anyone can get into an account. Authentication can use something a person knows, has or is (NIST, 2025), and the different methods give different levels of protection.
 
-Section 3 covers phishing, a form of social engineering in which attackers impersonate trusted individuals or organisations to deceive victims into revealing sensitive information, transferring money or carrying out unsafe actions (National Institute of Standards and Technology, n.d.). Phishing takes several forms and often relies on psychological manipulation to make a victim more likely to respond.
+Section 3 covers phishing, a form of social engineering in which attackers impersonate trusted individuals or organisations to deceive victims into revealing sensitive information, transferring money or carrying out unsafe actions (National Institute of Standards and Technology, N.D.). Phishing takes several forms and often relies on psychological manipulation to make a victim more likely to respond.
 
 Section 4 covers devices. Laptops, mobile phones and tablets hold personal, financial and work information, and if a device is not safe, someone can hack it and steal that information. A password alone cannot keep a device safe, so several layers of protection need to work together: regular software updates, screen locks and encryption, downloading apps only from official stores, and care with unknown USB devices and public chargers. When a weakness in software becomes public, attackers can use it to attack devices that have not been updated (NCSC, 2021d).
 
@@ -147,7 +147,7 @@ With password-only authentication, a stolen password may allow account access. W
 
 **Phishing**
 
-Phishing is a type of social engineering attack in which criminals impersonate a trusted organisation or individual in order to persuade victims to disclose sensitive information, transfer money, or visit a malicious website (National Institute of Standards and Technology, n.d.).
+Phishing is a type of social engineering attack in which criminals impersonate a trusted organisation or individual in order to persuade victims to disclose sensitive information, transfer money, or visit a malicious website (National Institute of Standards and Technology, N.D.).
 
 **Spear Phishing**
 
@@ -163,7 +163,7 @@ Unlike general phishing attacks, spear phishing is highly targeted. Attackers us
 
 **Smishing**
 
-Smishing is phishing conducted through SMS or other text messages. Attackers commonly use messages containing malicious links or other deceptive instructions to persuade victims to provide personal or financial information (Federal Bureau of Investigation, n.d.b).
+Smishing is phishing conducted through SMS or other text messages. Attackers commonly use messages containing malicious links or other deceptive instructions to persuade victims to provide personal or financial information (Federal Bureau of Investigation, N.D.b).
 
 **Illustrative example:**
 
@@ -171,7 +171,7 @@ Smishing is phishing conducted through SMS or other text messages. Attackers com
 
 **Vishing**
 
-Vishing is phishing carried out through phone calls, voice messages or Voice over Internet Protocol (VoIP). Attackers may impersonate an official organisation, such as a bank or government department, to gain trust and request personal information (Federal Bureau of Investigation, n.d.b; NCSC, 2021b).
+Vishing is phishing carried out through phone calls, voice messages or Voice over Internet Protocol (VoIP). Attackers may impersonate an official organisation, such as a bank or government department, to gain trust and request personal information (Federal Bureau of Investigation, N.D.b; NCSC, 2021b).
 
 **Illustrative example:**
 
@@ -179,7 +179,7 @@ Vishing is phishing carried out through phone calls, voice messages or Voice ove
 
 **Business Email Compromise (BEC)**
 
-Business Email Compromise usually targets organisations. Attackers may spoof or compromise email accounts and impersonate a colleague, manager, executive or trusted business contact. BEC often aims to persuade the victim to make a financial transfer or change payment details (Federal Bureau of Investigation, n.d.a).
+Business Email Compromise usually targets organisations. Attackers may spoof or compromise email accounts and impersonate a colleague, manager, executive or trusted business contact. BEC often aims to persuade the victim to make a financial transfer or change payment details (Federal Bureau of Investigation, N.D.a).
 
 **Illustrative example:**
 
@@ -231,7 +231,7 @@ According to the National Cyber Security Centre (NCSC, 2026), common indicators 
 - Poor-quality or strange-looking logos
 - Messages that pressure the user to act quickly
 
-The sender's email address should be checked carefully because attackers may create addresses that differ from legitimate ones by only a single letter, number or symbol (Federal Bureau of Investigation, n.d.b).
+The sender's email address should be checked carefully because attackers may create addresses that differ from legitimate ones by only a single letter, number or symbol (Federal Bureau of Investigation, N.D.b).
 
 **Example:**
 
@@ -280,7 +280,7 @@ Software updates are important because they fix known vulnerabilities, which are
 
 ### 4.2 Device Encryption, Screen Locks, and Security Software
 
-Encryption, screen locks, and security software protect various parts of the device. Encryption scrambles data so that it cannot be read without the right key. According to NIST, encryption separates the data; therefore, only authorised key holders can access it, limiting exposure in the event of a lost or stolen device (Howell et al., 2023). CISA also advises data encryption of computers, mobile gadgets, hard disks, and other pertinent files to prevent unauthorised access to data (CISA, n.d.). A screen lock stops other people from using the device, and it can use a password, a PIN or a fingerprint. Automatic lockouts lock the device after it has not been used for a while, so an unattended device cannot be used by someone else. Encryption and screen locking work hand in hand: the lock prevents access on the spot, and the encryption protects the stored data if someone tries to get around the normal login. Devices should also use reputable antivirus or endpoint security software, which can identify, prevent, or quarantine malware. According to the NCSC, modern security tools interact with operating system controls and should be updated to ensure new malware signatures and safeguards stay viable (NCSC, 2021e).
+Encryption, screen locks, and security software protect various parts of the device. Encryption scrambles data so that it cannot be read without the right key. According to NIST, encryption separates the data; therefore, only authorised key holders can access it, limiting exposure in the event of a lost or stolen device (Howell et al., 2023). CISA also advises data encryption of computers, mobile gadgets, hard disks, and other pertinent files to prevent unauthorised access to data (CISA, N.D.). A screen lock stops other people from using the device, and it can use a password, a PIN or a fingerprint. Automatic lockouts lock the device after it has not been used for a while, so an unattended device cannot be used by someone else. Encryption and screen locking work hand in hand: the lock prevents access on the spot, and the encryption protects the stored data if someone tries to get around the normal login. Devices should also use reputable antivirus or endpoint security software, which can identify, prevent, or quarantine malware. According to the NCSC, modern security tools interact with operating system controls and should be updated to ensure new malware signatures and safeguards stay viable (NCSC, 2021e).
 
 ### 4.3 Risks of Installing Software from Unofficial Sources
 
@@ -315,7 +315,7 @@ Cybersecurity and Infrastructure Security Agency [CISA], Federal Bureau of Inves
 
 Cybersecurity and Infrastructure Security Agency [CISA]. (2023) *Implementing phishing-resistant MFA*. [Online] Available from: https://www.cisa.gov/sites/default/files/2023-01/fact-sheet-implementing-phishing-resistant-mfa-508c.pdf. [Accessed 28 September 2026].
 
-Cybersecurity and Infrastructure Security Agency [CISA]. (n.d.) *How to protect the data that is stored on your devices*. [Online] Available from: https://www.cisa.gov/resources-tools/training/how-protect-data-stored-your-devices. [Accessed 26 September 2026].
+Cybersecurity and Infrastructure Security Agency [CISA]. (N.D.) *How to protect the data that is stored on your devices*. [Online] Available from: https://www.cisa.gov/resources-tools/training/how-protect-data-stored-your-devices. [Accessed 26 September 2026].
 
 Das, A., Bonneau, J., Caesar, M., Borisov, N. and Wang, X. (2014) The tangled web of password reuse. In: *Network and Distributed System Security Symposium (NDSS 2014)*. San Diego, 23-26 February 2014. [Online] Available from: https://www.ndss-symposium.org/ndss2014/ndss-2014-programme/tangled-web-password-reuse/. [Accessed 25 September 2026].
 
@@ -325,9 +325,9 @@ Draschbacher, F., Maar, L., Oberhuber, M., and Mangard, S. (2025) ChoiceJacking:
 
 European Union Agency for Cybersecurity [ENISA]. (2024) *Promoting security in the digital world during the European Cybersecurity Month*. [Online] Available from: https://www.enisa.europa.eu/news/promoting-security-in-the-digital-world-during-the-european-cybersecurity-month. [Accessed 26 September 2026].
 
-Federal Bureau of Investigation. (n.d.a) *Business email compromise*. [Online] Available from: https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams/business-email-compromise. [Accessed 30 September 2026].
+Federal Bureau of Investigation. (N.D.a) *Business email compromise*. [Online] Available from: https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams/business-email-compromise. [Accessed 30 September 2026].
 
-Federal Bureau of Investigation. (n.d.b) *Spoofing and phishing*. [Online] Available from: https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams/spoofing-and-phishing. [Accessed 30 September 2026].
+Federal Bureau of Investigation. (N.D.b) *Spoofing and phishing*. [Online] Available from: https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams/spoofing-and-phishing. [Accessed 30 September 2026].
 
 Gunson, N., Marshall, D., Morton, H. and Jack, M. (2011) User perceptions of security and usability of single-factor and two-factor authentication in automated telephone banking. *Computers & Security*, 30(4), pp. 208-220. Available from: https://doi.org/10.1016/j.cose.2010.12.001.
 
@@ -369,7 +369,7 @@ National Institute of Standards and Technology. (2021) *CVE-2021-44228 detail: A
 
 National Institute of Standards and Technology. (2025) *Digital identity guidelines: authentication and authenticator management (NIST Special Publication 800-63B-4)*. [Online] Gaithersburg, MD: NIST. Available from: https://pages.nist.gov/800-63-4/sp800-63b.html. [Accessed 25 September 2026].
 
-National Institute of Standards and Technology. (n.d.) *Phishing*. [Online] Available from: https://csrc.nist.gov/glossary/term/phishing. [Accessed 30 September 2026].
+National Institute of Standards and Technology. (N.D.) *Phishing*. [Online] Available from: https://csrc.nist.gov/glossary/term/phishing. [Accessed 30 September 2026].
 
 Oesch, S. and Ruoti, S. (2020) That was then, this is now: a security evaluation of password generation, storage, and autofill in browser-based password managers. In: *Proceedings of the 29th USENIX Security Symposium*. August 2020. [Online] Berkeley, CA: USENIX Association, pp. 2165-2182. Available from: https://www.usenix.org/conference/usenixsecurity20/presentation/oesch. [Accessed 25 September 2026].
 
