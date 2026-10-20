@@ -10,8 +10,6 @@
 
 ## Contents
 
-*Draft: page numbers are added when the report is turned into a PDF.*
-
 - [Introduction](#introduction)
 - [1. Password Hygiene](#1-password-hygiene)
   - [1.1 What makes a password strong](#11-what-makes-a-password-strong)
@@ -41,25 +39,17 @@
 
 ## Introduction
 
-*Everyone contributes to the introduction (brief page 22). Marcus's part is below. Other members add theirs, then the team merges it into one style.*
-
 Most of us now bank, shop, work and keep in touch online, and every one of those accounts is something an attacker can target. In 2025, 43% of UK businesses identified a cyber security breach or attack in the previous 12 months (Department for Science, Innovation and Technology, 2025). Of the businesses that had one, 65% named phishing as the most disruptive type of attack (DSIT, 2025).
 
 Verizon's 2025 Data Breach Investigations Report found that human involvement in breaches remains high (Verizon, 2025). An estimated 43% to 51% of users reuse the same password across different sites (Das et al., 2014), and in 2025 Verizon found that only 49% of a typical person's passwords were different from each other (Langlois, 2025). In 2023 an attacker got into 23andMe accounts using login details that people had reused after earlier, unrelated breaches (Information Commissioner's Office, 2025).
 
 This report relies mainly on official bodies. The National Cyber Security Centre (NCSC) is part of GCHQ and helps businesses, the public sector and individuals protect the online services and devices they depend on. Its stated mission is to make the UK the safest place to live and work online (National Cyber Security Centre, N.D.c).
 
-*Sorena's part:*
+Section 1 covers passwords. Section 2 covers two-factor and multi-factor authentication, which add another layer of protection by asking for more than a password before anyone can get into an account. Authentication can use something a person knows, has or is (NIST, 2025), and the different methods give different levels of protection.
 
-Phishing is a form of social engineering in which attackers impersonate trusted individuals or organisations to deceive victims into revealing sensitive information, transferring money or carrying out unsafe actions (National Institute of Standards and Technology, n.d.). Phishing can take several forms and often relies on psychological manipulation to increase the likelihood that a victim will respond.
+Section 3 covers phishing, a form of social engineering in which attackers impersonate trusted individuals or organisations to deceive victims into revealing sensitive information, transferring money or carrying out unsafe actions (National Institute of Standards and Technology, n.d.). Phishing takes several forms and often relies on psychological manipulation to make a victim more likely to respond.
 
-*Charlie's part:*
-
-Two-factor and multi-factor authentication add another layer of protection by requiring more than a password to access an account. Authentication can use something a person knows, has or is, while different MFA methods provide different levels of protection.
-
-*Nah's part:*
-
-Devices such as laptops, mobile phones and tablets hold our personal, financial and work information, so if a device is not safe, it can be hacked and that information can be stolen. To keep a device safe, using a password is not enough on its own; instead, we need several layers of protection that work together. Section 4 of this report explains how regular software updates, screen locks and encryption, downloading apps only from official stores, and taking care with unknown USB devices and public chargers help keep a device safe. When a weakness in software becomes public, attackers can use it to attack devices that have not been updated (NCSC, 2021d).
+Section 4 covers devices. Laptops, mobile phones and tablets hold personal, financial and work information, and if a device is not safe, someone can hack it and steal that information. A password alone cannot keep a device safe, so several layers of protection need to work together: regular software updates, screen locks and encryption, downloading apps only from official stores, and care with unknown USB devices and public chargers. When a weakness in software becomes public, attackers can use it to attack devices that have not been updated (NCSC, 2021d).
 
 ---
 
@@ -151,7 +141,7 @@ With password-only authentication, a stolen password may allow account access. W
 
 ## 3. Phishing and Social Engineering
 
-*Section owner: Sorena Golbarg Lisar (copied from Sorena's Phishing_Section3.pdf, uploaded 30/09/2026)*
+*Section owner: Sorena Golbarg Lisar*
 
 ### 3.1 Phishing and its Different Forms
 
@@ -280,7 +270,7 @@ Employee awareness is important, but it should not be the organisation's only de
 
 ## 4. Safe Use of Devices
 
-*Section owner: Nah'Kajsha Reid (copied from Nah's "Safe Use of Devices.docx", uploaded 03/10/2026)*
+*Section owner: Nah'Kajsha Reid*
 
 Cybersecurity depends heavily on how safely people configure and use everyday devices. Personal, financial, academic, and business information is stored in laptops, smartphones, tablets, and removable media. Using a weak device creates a potential vulnerability that could expose your data and accounts. There are several overlapping controls that could be needed to offer effective protection as opposed to a single security product. Software updating, encrypting the stored data, locking down the screens, trusted security software, and treating unknown USB connections carefully will lower the chances of an attacker succeeding. The above actions are particularly relevant since attackers usually seek to exploit vulnerabilities that they are aware of or convince a user to install malicious software on their own. The goal of using safe devices is to lessen the probability of compromise as well as the harm in case one of the defensive strategies fails.
 
@@ -302,33 +292,22 @@ Unknown USB devices are harmful, as USBs might contain data and instructions, no
 
 Safe device use, therefore, depends on layered, routine behaviour. Patches eliminate identified vulnerabilities prior to exploit success, encryption and lockouts minimise unauthorised access, security applications aid in the detection of malicious activity, trusted software vendors reduce exposure to altered applications, and correct USB and charging practices limit physical connection attacks. None of these controls are ideal on their own, yet in combination, they drastically minimise the risk that can be avoided and increase the difficulty of compromising a device.
 
-****
 
 ---
 
 ## Conclusion
 
-*Everyone contributes to the conclusion (brief page 22). Marcus's part is below.*
-
 Use three random words, or at least 15 characters, for each account (NCSC, N.D.a; NIST, 2025). Don't reuse passwords, because attackers use software to try leaked passwords on many other sites (Langlois, 2025). Let a password manager remember your passwords, and turn on 2-step verification first, starting with your email account (NCSC, N.D.b). If a password is leaked, change it straight away. Otherwise there is no need to change passwords on a schedule (NIST, 2025).
 
-*Sorena's part:*
+Multi-factor authentication can substantially reduce the risk of account compromise, but the methods are not equally secure. Choose a stronger, phishing-resistant method where you can. SMS codes can still add useful protection when nothing stronger is available (NCSC, 2024).
 
-In conclusion, phishing remains a significant cyber-security threat because attackers combine deceptive messages with psychological techniques such as authority, urgency, fear and scarcity. Recognising warning signs, responding quickly to suspicious activity and using multiple layers of organisational security can reduce the risk and impact of successful phishing attacks (National Cyber Security Centre, 2018; NCSC, 2021b).
+Phishing remains a significant threat because attackers combine deceptive messages with psychological techniques such as authority, urgency, fear and scarcity. Recognising the warning signs, responding quickly to anything suspicious and using several layers of organisational security can reduce the risk and impact of a successful phishing attack (National Cyber Security Centre, 2018; NCSC, 2021b).
 
-*Charlie's part:*
-
-MFA can substantially reduce the risk of account compromise, but authentication methods are not equally secure. Stronger phishing-resistant methods should be preferred where practical, while SMS can still provide useful additional protection when stronger options are unavailable.
-
-*Nah's part:*
-
-In conclusion, keeping a device safe is not about one step; it means using several protections together, such as updates, screen locks, encryption and safe downloads, and keeping them up to date. If one protection fails, the others can still stop an attacker or limit the harm. A simple step everyone can take is to keep antivirus software turned on and updated, because this lets it recognise new malware (NCSC, 2021e).
+Keeping a device safe is not about one step. It means using several protections together, such as updates, screen locks, encryption and safe downloads, and keeping them up to date. If one protection fails, the others can still stop an attacker or limit the harm. A simple step everyone can take is to keep antivirus software turned on and updated, because this lets it recognise new malware (NCSC, 2021e).
 
 ---
 
 ## Reference List
-
-*UGM Harvard. One alphabetised list for the whole team. Add your sources in alphabetical order.*
 
 Apache Software Foundation. (2021) *Apache Log4j 2 release notes*. [Online] Available from: https://logging.apache.org/log4j/2.x/release-notes.html. [Accessed 26 September 2026].
 
