@@ -31,23 +31,22 @@
 
 R = Responsible · A = Accountable · C = Consulted · I = Informed
 
-| Task | M1 | M2 | M3 | M4 |
-|------|----|----|----|----|
-| Introduction (frame the portfolio as one story) | | | | |
-| MP1 Computing — section & evidence | | | | |
-| MP2 Software Engineering — section & evidence | | | | |
-| MP3 Networking — section & evidence | | | | |
-| MP4 Cyber-Security — section & evidence | | | | |
-| Live demonstration (open one artefact from the repo) | | | | |
-| Backup demo recording (in case live fails) | | | | |
-| Reflection & GAI-use statement | | | | |
-| Conclusion (practical takeaways) | | | | |
-| Slides — design, consistency & visuals | | | | |
-| Timing & rehearsal (keep within 15–20 min) | | | | |
-| Q&A preparation (mock questions, who leads on what) | | | | |
-| Final tidy of the GitHub portfolio before delivery | | | | |
+| Task | Marcus | Nah | Charlie | Sorena |
+|------|--------|-----|---------|--------|
+| Introduction (frame the portfolio as one story) | Responsible, Accountable | Informed | Informed | Informed |
+| MP1 Computing — section & evidence | Informed | Informed | Responsible, Accountable | Informed |
+| MP2 Software Engineering — section & evidence | Informed | Informed | Informed | Responsible, Accountable |
+| MP3 Networking — section & evidence | Informed | Informed | Informed | Responsible, Accountable |
+| MP4 Cyber-Security — section & evidence | Responsible, Accountable | Informed | Informed | Informed |
+| Live demonstration (open one artefact from the repo) | Informed | Responsible, Accountable | Informed | Informed |
+| Backup demo recording (in case live fails) | Informed | Responsible, Accountable | Informed | Informed |
+| Reflection & GAI-use statement | Consulted | Consulted | Responsible, Accountable | Consulted |
+| Conclusion (practical takeaways) | Informed | Informed | Responsible, Accountable | Informed |
+| Slides — design, consistency & visuals | Responsible, Accountable | Responsible | Responsible | Responsible |
+| Timing & rehearsal (keep within 15–20 min) | Responsible, Accountable | Responsible | Responsible | Responsible |
+| Q&A preparation (mock questions, who leads on what) | Responsible, Accountable | Responsible | Responsible | Responsible |
+| Final tidy of the GitHub portfolio before delivery | Responsible, Accountable | Consulted | Consulted | Consulted |
 
-> Columns M1–M4 are the team members — replace the headers with names. Add or remove a column for a 3- or 5-person team, and make sure every mini-project, the live demo, and the intro/reflection/conclusion are each owned by someone.
 
 ---
 
